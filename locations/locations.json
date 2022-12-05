@@ -1,57 +1,218 @@
 [
     {
-        "name": "Example Parent",
+        "name": "Overworld (Quest 1)",
         "children": [
             {
-                "name": "Example Location 1",
-                "access_rules": [
-                    //read as: progressive_2 or toggle                    
-                    "progressive_2",
-                    "toggle"                    
+                "name": "Starting Sword Cave",
+                "access_rules": [                                
                 ],
                 "sections": [
                     {
-                        "name": "Example Section 1",
                         "item_count": 1
-                    },
-                    {
-                        "name": "Example Section 2",
-                        "item_count": 3
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
-                        "x": 1750,
-                        "y": 700
-                    },
-                    {
-                        "map": "map2",
-                        "x": 1000,
-                        "y": 500
+                        "map": "overworld",
+                        "x": 1863,
+                        "y": 1255
                     }
                 ]
             },
             {
-                "name": "Example Location 2",
-                "access_rules": [
-                    //read as: progressive_toggle_2 and has more then 4 consumable
-                    "progressive_toggle_2, $has_more_then_n_consumable|4"                   
+                "name": "White Sword Pond",
+                "access_rules": [                                
                 ],
                 "sections": [
                     {
-                        "name": "Example Section 1",
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
-                        "map": "map1",
-                        "x": 1500,
-                        "y": 400
+                        "map": "overworld",
+                        "x": 2599,
+                        "y": 23
                     }
                 ]
-            }            
+            },
+            {
+                "name": "Magical Sword Grave",
+                "access_rules": [                                
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 407,
+                        "y": 440
+                    }
+                ]
+            },
+            {
+                "name": "Letter Cave",
+                "access_rules": [                                
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 3671,
+                        "y": 71
+                    }
+                ]
+            },
+            {
+                "name": "Armos Knights",
+                "access_rules": [                                
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 3255,
+                        "y": 248
+                    }
+                ]
+            },
+            {
+                "name": "Ocean Heart Container",
+                "access_rules": [
+                    "{}", "ladder, sword", "[], ladder"                         
+                ],
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 4041,
+                        "y": 968
+                    }
+                ]
+            },
+            {
+                "name": "Take Any Item",
+                "access_rules": [
+                    "[], bomb", "bomb, sword"
+                ],
+                "sections": [
+                    {
+                        "name": "Left",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Middle",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Right",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 3222,
+                        "y": 457
+                    }
+                ]
+            },
+            {
+                "name": "Take Any Item",
+                "access_rules": [
+                    "[], bomb", "bomb, sword"
+                ],
+                "sections": [
+                    {
+                        "name": "Left",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Middle",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Right",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 2967,
+                        "y": 1255
+                    }
+                ]
+            },
+            {
+                "name": "Take Any Item",
+                "access_rules": [
+                    "[], candle", "candle, sword"
+                ],
+                "sections": [
+                    {
+                        "name": "Left",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Middle",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Right",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 1977,
+                        "y": 824
+                    }
+                ]
+            },
+            {
+                "name": "Take Any Item",
+                "access_rules": [
+                    "[], raft", "raft, sword"
+                ],
+                "sections": [
+                    {
+                        "name": "Left",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Middle",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Right",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 3946,
+                        "y": 424
+                    }
+                ]
+            }
         ]
     }
 ]

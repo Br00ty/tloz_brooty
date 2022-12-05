@@ -1,6 +1,4 @@
-﻿//sets the trackers layout
-//more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#layouts 
-{
+﻿{
   "tracker_default": {
     "type": "container",
     "background": "#000000",
@@ -10,89 +8,119 @@
       "content": [
         {
           "type": "dock",
-          "dock": "left",
+          "dock": "bottom",
           "v_alignment": "stretch",
           "content": [
             {
               "type": "group",
               "header": "Items",
-              "dock": "top",
+              "dock": "left",
               "content": {
                 "type": "layout",
                 "key": "shared_item_grid"
               }
-            }
-          ]
-        },
-        {
-          "type": "tabbed",
-          "tabs": [
-            {
-              "title": "Map 1",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "map1"
-                ]
-              }
             },
-            {
-              "title": "Map 2",
-              "content": {
-                "type": "map",
-                "maps": [
-                  "map2"
-                ]
-              }
-            }
-          ]
-        }
-      ]
-    }
-  },
-  "tracker_horizontal": {
-    "type": "container",
-    "background": "#000000",
-    "content": {
-      "type": "dock",
-      "dropshadow": true,
-      "content": [
-        {
-          "type": "dock",
-          "dock": "bottom",
-          "content": [
             {
               "type": "group",
-              "header": "Items",
-              "dock": "left",
-              "margin": "0,0,3,0",
+              "header": "Settings",
+              "dock": "right",
               "content": {
                 "type": "layout",
-                "h_alignment": "center",
-                "v_alignment": "center",
-                "key": "shared_item_grid"
+                "key": "settings_grid"
               }
-            }            
+            }
           ]
         },
         {
           "type": "tabbed",
           "tabs": [
             {
-              "title": "Map 1",
+              "title": "Overworld",
               "content": {
                 "type": "map",
                 "maps": [
-                  "map1"
+                  "overworld"
                 ]
               }
             },
             {
-              "title": "Map 2",
+              "title": "Level 1 (Eagle)",
               "content": {
                 "type": "map",
                 "maps": [
-                  "map2"
+                  "level1"
+                ]
+              }
+            },
+            {
+              "title": "Level 2 (Moon)",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "level2"
+                ]
+              }
+            },
+            {
+              "title": "Level 3 (Manji)",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "level3"
+                ]
+              }
+            },
+            {
+              "title": "Level 4 (Snake)",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "level4"
+                ]
+              }
+            },
+            {
+              "title": "Level 5 (Lizard)",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "level5"
+                ]
+              }
+            },
+            {
+              "title": "Level 6 (Dragon)",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "level6"
+                ]
+              }
+            },
+            {
+              "title": "Level 7 (Demon)",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "level7"
+                ]
+              }
+            },
+            {
+              "title": "Level 8 (Lion)",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "level8"
+                ]
+              }
+            },
+            {
+              "title": "Level 9 (Death Mountain)",
+              "content": {
+                "type": "map",
+                "maps": [
+                  "level9"
                 ]
               }
             }

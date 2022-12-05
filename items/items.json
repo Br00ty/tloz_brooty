@@ -1,56 +1,205 @@
-//more info: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#items
 [  
   {
-    "name": "Toggle",
+    "name": "Bomb",
     "type": "toggle",
-    "img": "images/items/toggle.png",
-    "codes": "toggle"
+    "img": "images/items/bomb.png",
+    "codes": "bomb"
   },
   {
-    "name": "Progressive",
+    "name": "Bow",
+    "type": "toggle",
+    "img": "images/items/bow.png",
+    "codes": "bow"
+  },
+  {
+    "name": "Flute",
+    "type": "toggle",
+    "img": "images/items/flute.png",
+    "codes": "flute"
+  },
+  {
+    "name": "Food",
+    "type": "toggle",
+    "img": "images/items/food.png",
+    "codes": "food"
+  },
+  {
+    "name": "Letter",
+    "type": "toggle",
+    "img": "images/items/letter.png",
+    "codes": "letter"
+  },
+  {
+    "name": "Magic Rod",
+    "type": "toggle",
+    "img": "images/items/magicrod.png",
+    "codes": "magicrod"
+  },
+  {
+    "name": "Book of Magic",
+    "type": "toggle",
+    "img": "images/items/magicbook.png",
+    "codes": "magicbook"
+  },
+  {
+    "name": "Power Bracelet",
+    "type": "toggle",
+    "img": "images/items/bracelet.png",
+    "codes": "bracelet"
+  },
+  {
+    "name": "Magical Key",
+    "type": "toggle",
+    "img": "images/items/magickey.png",
+    "codes": "magickey"
+  },
+  {
+    "name": "Raft",
+    "type": "toggle",
+    "img": "images/items/raft.png",
+    "codes": "raft"
+  },
+  {
+    "name": "Stepladder",
+    "type": "toggle",
+    "img": "images/items/ladder.png",
+    "codes": "ladder"
+  },
+  {
+    "name": "Boomerangs",
     "type": "progressive",
     "allow_disabled": true,
     "initial_stage_idx": 0,
     "stages": [
       {
-        "img": "images/items/progressive.png",
-        "codes": "progressive",
-        "inherit_codes": false
+        "img": "images/items/boomerang.png",
+        "codes": "boomerang",
+        "inherit_codes": true
       },
       {
-        "img": "images/items/progressive_2.png",
-        "codes": "progressive_2",
-        "inherit_codes": false
+        "img": "images/items/boomerang2.png",
+        "codes": "boomerang2",
+        "inherit_codes": true
       }
     ]
   },
   {
-    "name": "Consumable",
-    "type": "consumable",
-    "img": "images/items/consumable.png",
-    "max_quantity": 8,
-    "increment": 1,
-    "decrement": 1,
-    "initial_quantity": 1,
-    "overlay_background": "#000000",
-    "overlay_font_size": 8,
-    "codes": "consumable"
-  },
-  {
-    "name": "Progressive Toggle",
-    "type": "progressive_toggle",
+    "name": "Swords",
+    "type": "progressive",
+    "allow_disabled": true,
     "initial_stage_idx": 0,
     "stages": [
       {
-        "img": "images/items/progressive.png",
-        "codes": "progressive_toggle",
+        "img": "images/items/sword.png",
+        "codes": "sword",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/sword2.png",
+        "codes": "sword2",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/sword3.png",
+        "codes": "sword3",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Arrows",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/arrow.png",
+        "codes": "arrow",
         "inherit_codes": false
       },
       {
-        "img": "images/items/progressive_2.png",
-        "codes": "progressive_toggle_2",
+        "img": "images/items/arrow2.png",
+        "codes": "arrow2",
         "inherit_codes": false
       }
     ]
   },
+  {
+    "name": "Candles",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/bluecandle.png",
+        "codes": "candle",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/redcandle.png",
+        "codes": "candle2",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Shields",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/shield.png",
+        "codes": "shield",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/shield2.png",
+        "codes": "shield2",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Rings",
+    "type": "progressive",
+    "allow_disabled": true,
+    "initial_stage_idx": 0,
+    "stages": [
+      {
+        "img": "images/items/bluering.png",
+        "codes": "bluering",
+        "inherit_codes": true
+      },
+      {
+        "img": "images/items/redring.png",
+        "codes": "redring",
+        "inherit_codes": true
+      }
+    ]
+  },
+  {
+    "name": "Small Key",
+    "type": "consumable",
+    "img": "images/items/smallkey.png",
+    "max_quantity": 45,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 12,
+    "codes": "smallkey"
+  },
+  {
+    "name": "Triforce Pieces",
+    "type": "consumable",
+    "img": "images/items/triforce.png",
+    "max_quantity": 8,
+    "increment": 1,
+    "decrement": 1,
+    "initial_quantity": 0,
+    "overlay_background": "#000000",
+    "overlay_font_size": 12,
+    "codes": "triforce"
+  }
 ]
