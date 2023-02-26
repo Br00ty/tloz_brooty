@@ -2,7 +2,7 @@
     "shared_item_grid": {
         "type": "array",
         "orientation": "vertical",
-        "margin": "0,0",
+        "margin": "2,2",
         "content": [
             {
                 "type": "array",
@@ -11,25 +11,72 @@
                 "content": [
                     {
                         "type": "itemgrid",
-                        "item_margin": "7, 10",
+                        "item_margin": "2, 10",
+                        "margin": "10,0",
                         "h_alignment": "left",
                         "rows": [
                             [
-                                "sword", "shield", "boomerang", "bow", "arrow", "magicrod"    
-                            ],
-                            [
-                                "bracelet", "bomb", "candle", "food", "letter", "magicbook"
+                                "sword", "sword2", "sword3", "shield2", "bomb", "bow", "botharrows"    
                             ]
                         ]
                     },
                     {
                         "type": "itemgrid",
-                        "item_margin": "7, 10",
+                        "item_margin": "3, 10",
                         "margin": "0,0",
                         "h_alignment": "left",
                         "rows": [
                             [
-                                "flute", "raft", "ladder", "bluering", "magickey", "triforce"
+                                "bracelet", "magicrod", "bothboomers", "bothcandles", "food", "letter", "magicbook"
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "3, 10",
+                        "margin": "0,0",
+                        "h_alignment": "left",
+                        "rows": [
+                            [
+                                "flute", "raft", "ladder", "bothrings", "magickey", "heart", "triforce"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "settings_grid": {
+        "type": "array",
+        "orientation": "vertical",
+        "margin": "2,2",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0,0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "10, 10",
+                        "margin": "10,0",
+                        "h_alignment": "left",
+                        "item_size": 100,
+                        "rows": [
+                            [
+                                "positionbutton", "safe"   
+                            ]
+                        ]
+                    },
+                    {
+                        "type": "itemgrid",
+                        "item_margin": "10, -30",
+                        "margin": "10,0",
+                        "h_alignment": "left",
+                        "item_size": 100,
+                        "rows": [
+                            [
+                                "poolbutton", "pooltrue"  
                             ]
                         ]
                     }

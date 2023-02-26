@@ -7,55 +7,55 @@
   },
   {
     "name": "level1",
-    "location_size": 48,
+    "location_size": 24,
     "location_border_thickness": 4,
     "img": "images/maps/level1.png"
   },
   {
     "name": "level2",
-    "location_size": 48,
+    "location_size": 24,
     "location_border_thickness": 4,
     "img": "images/maps/level2.png"
   },
   {
     "name": "level3",
-    "location_size": 48,
+    "location_size": 24,
     "location_border_thickness": 4,
     "img": "images/maps/level3.png"
   },
   {
     "name": "level4",
-    "location_size": 48,
+    "location_size": 24,
     "location_border_thickness": 4,
     "img": "images/maps/level4.png"
   },
   {
     "name": "level5",
-    "location_size": 48,
+    "location_size": 24,
     "location_border_thickness": 4,
     "img": "images/maps/level5.png"
   },
   {
     "name": "level6",
-    "location_size": 48,
+    "location_size": 24,
     "location_border_thickness": 4,
     "img": "images/maps/level6.png"
   },
   {
     "name": "level7",
-    "location_size": 48,
+    "location_size": 24,
     "location_border_thickness": 4,
     "img": "images/maps/level7.png"
   },
   {
     "name": "level8",
-    "location_size": 48,
+    "location_size": 24,
     "location_border_thickness": 4,
     "img": "images/maps/level8.png"
   },
   {
     "name": "level9",
-    "location_size": 48,
+    "location_size": 24,
     "location_border_thickness": 4,
     "img": "images/maps/level9.png"
   }

@@ -19,9 +19,9 @@ ScriptHost:LoadScript("scripts/utils.lua")
 ScriptHost:LoadScript("scripts/logic/logic.lua")
 
 -- Custom Items
-ScriptHost:LoadScript("scripts/custom_items/class.lua")
-ScriptHost:LoadScript("scripts/custom_items/progressiveTogglePlus.lua")
-ScriptHost:LoadScript("scripts/custom_items/progressiveTogglePlusWrapper.lua")
+-- ScriptHost:LoadScript("scripts/custom_items/class.lua")
+-- ScriptHost:LoadScript("scripts/custom_items/progressiveTogglePlus.lua")
+-- ScriptHost:LoadScript("scripts/custom_items/progressiveTogglePlusWrapper.lua")
 
 -- Items
 Tracker:AddItems("items/items.json")
@@ -31,6 +31,7 @@ if not IS_ITEMS_ONLY then -- <--- use variant info to optimize loading
     Tracker:AddMaps("maps/maps.json")    
     -- Locations
     Tracker:AddLocations("locations/locations.json")
+    Tracker:AddLocations("locations/dungeons.json")
 end
 
 -- Layout

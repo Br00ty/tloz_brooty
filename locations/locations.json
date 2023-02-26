@@ -1,13 +1,12 @@
 [
     {
-        "name": "Overworld (Quest 1)",
+        "name": "Overworld",
         "children": [
             {
                 "name": "Starting Sword Cave",
-                "access_rules": [                                
-                ],
                 "sections": [
                     {
+                        "name": "Sword",
                         "item_count": 1
                     }
                 ],
@@ -21,10 +20,12 @@
             },
             {
                 "name": "White Sword Pond",
-                "access_rules": [                                
+                "access_rules": [
+                    "[$weapons], heart:2"                              
                 ],
                 "sections": [
                     {
+                        "name": "White Sword",
                         "item_count": 1
                     }
                 ],
@@ -38,10 +39,12 @@
             },
             {
                 "name": "Magical Sword Grave",
-                "access_rules": [                                
+                "access_rules": [
+                    "[$weapons], heart:10"                               
                 ],
                 "sections": [
                     {
+                        "name": "Magical Sword",
                         "item_count": 1
                     }
                 ],
@@ -55,10 +58,12 @@
             },
             {
                 "name": "Letter Cave",
-                "access_rules": [                                
+                "access_rules": [
+                    "$weapons", "[unsafe]"                          
                 ],
                 "sections": [
                     {
+                        "name": "Letter",
                         "item_count": 1
                     }
                 ],
@@ -72,28 +77,31 @@
             },
             {
                 "name": "Armos Knights",
-                "access_rules": [                                
+                "access_rules": [
+                    "$weapons", "[unsafe]"                            
                 ],
                 "sections": [
                     {
+                        "name": "Power Bracelet",
                         "item_count": 1
                     }
                 ],
                 "map_locations": [
                     {
                         "map": "overworld",
-                        "x": 3255,
-                        "y": 248
+                        "x": 1255,
+                        "y": 423
                     }
                 ]
             },
             {
                 "name": "Ocean Heart Container",
                 "access_rules": [
-                    "{}", "ladder, sword", "[], ladder"                         
+                    "{}", "ladder, [$weapons]"                        
                 ],
                 "sections": [
                     {
+                        "name": "Heart Container",
                         "item_count": 1
                     }
                 ],
@@ -108,19 +116,28 @@
             {
                 "name": "Take Any Item",
                 "access_rules": [
-                    "[], bomb", "bomb, sword"
+                    "[$weapons]"
                 ],
                 "sections": [
                     {
                         "name": "Left",
+                        "access_rules": [
+                            "$fire", "raft", "bomb"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Middle",
+                        "access_rules": [
+                            "$fire", "raft", "bomb"
+                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Right",
+                        "access_rules": [
+                            "$fire", "raft", "bomb"
+                        ],
                         "item_count": 1
                     }
                 ],
@@ -129,67 +146,68 @@
                         "map": "overworld",
                         "x": 3222,
                         "y": 457
-                    }
-                ]
-            },
-            {
-                "name": "Take Any Item",
-                "access_rules": [
-                    "[], bomb", "bomb, sword"
-                ],
-                "sections": [
-                    {
-                        "name": "Left",
-                        "item_count": 1
                     },
-                    {
-                        "name": "Middle",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Right",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
                     {
                         "map": "overworld",
                         "x": 2967,
                         "y": 1255
-                    }
-                ]
-            },
-            {
-                "name": "Take Any Item",
-                "access_rules": [
-                    "[], candle", "candle, sword"
-                ],
-                "sections": [
-                    {
-                        "name": "Left",
-                        "item_count": 1
                     },
-                    {
-                        "name": "Middle",
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Right",
-                        "item_count": 1
-                    }
-                ],
-                "map_locations": [
                     {
                         "map": "overworld",
                         "x": 1977,
                         "y": 824
+                    },
+                    {
+                        "map": "overworld",
+                        "x": 3946,
+                        "y": 424
                     }
                 ]
             },
             {
-                "name": "Take Any Item",
+                "name": "Arrow Shop",
+                "access_rules": ["[$weapons]"],
+                "sections": [
+                    {
+                        "name": "Left",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Middle",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Right",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 3896,
+                        "y": 1080
+                    },
+                    {
+                        "map": "overworld",
+                        "x": 2744,
+                        "y": 727
+                    },
+                    {
+                        "map": "overworld",
+                        "x": 1095,
+                        "y": 727
+                    },
+                    {
+                        "map": "overworld",
+                        "x": 1447,
+                        "y": 375
+                    }
+                ]
+            },
+            {
+                "name": "Candle Shop",
                 "access_rules": [
-                    "[], raft", "raft, sword"
+                    "[$weapons]"
                 ],
                 "sections": [
                     {
@@ -208,8 +226,1432 @@
                 "map_locations": [
                     {
                         "map": "overworld",
-                        "x": 3946,
-                        "y": 424
+                        "x": 3703,
+                        "y": 903
+                    },
+                    {
+                        "map": "overworld",
+                        "x": 3208,
+                        "y": 23
+                    },
+                    {
+                        "map": "overworld",
+                        "x": 1656,
+                        "y": 1079
+                    }
+                ]
+            },
+            {
+                "name": "Blue Ring Shop",
+                "access_rules": [
+                    "[$weapons]"
+                ],
+                "sections": [
+                    {
+                        "name": "Left",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Middle",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Right",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 1094,
+                        "y": 600
+                    }
+                ]
+            },
+            {
+                "name": "Shield Shop",
+                "access_rules": [
+                    "[$weapons], $fire", "[$weapons], bomb"
+                ],
+                "sections": [
+                    {
+                        "name": "Left",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Middle",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Right",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 3543,
+                        "y": 807
+                    },
+                    {
+                        "map": "overworld",
+                        "x": 1686,
+                        "y": 823
+                    },
+                    {
+                        "map": "overworld",
+                        "x": 648,
+                        "y": 200
+                    },
+                    {
+                        "map": "overworld",
+                        "x": 1588,
+                        "y": 375
+                    }
+                ]
+            },
+            {
+                "name": "Potion Shop",
+                "access_rules": [
+                    "letter, [$weapons]"
+                ],
+                "sections": [
+                    {
+                        "name": "Left",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Middle",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Right",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 3475,
+                        "y": 23
+                    },
+                    {
+                        "map": "overworld",
+                        "x": 2998,
+                        "y": 743
+                    },
+                    {
+                        "map": "overworld",
+                        "x": 2087,
+                        "y": 1336
+                    },
+                    {
+                        "map": "overworld",
+                        "x": 2022,
+                        "y": 374
+                    },
+                    {
+                        "map": "overworld",
+                        "x": 1223,
+                        "y": 23
+                    },
+                    {
+                        "map": "overworld",
+                        "x": 933,
+                        "y": 552
+                    },
+                    {
+                        "map": "overworld",
+                        "x": 1143,
+                        "y": 1079
+                    }
+                ]
+            },
+            {
+                "name": "Eagle Dungeon (D1)",
+                "sections": [
+                    {
+                        "name": "Bow",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Boomerang",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Map",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Compass",
+                        "access_rules": [
+                            "[dangerous]","$weapons"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Aquamentus",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Triforce",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Key Drop (Keese Entrance)",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Key Drop (Stalfos Middle)",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Key Drop (Moblins)",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Key Drop (Stalfos Water)",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Key Drop (Stalfos Entrance)",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Key Drop (Wallmasters)",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 1912,
+                        "y": 598
+                    }
+                ]
+            },
+            {
+                "name": "Moon (D2)",
+                "sections": [
+                    {
+                        "name": "Key Drop (Ropes West)",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Key Drop (Ropes Entrance)",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Key Drop (Ropes Middle)",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Key Drop (Moldorms)",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bomb Drop (Keese)",
+                        "access_rules": [
+                            "$weapons", "[dangerous]"
+                        ],
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Magical Boomerang",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Map",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Compass",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rupee Drop (Gels)",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bomb Drop (Moblins)",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Dodongo",
+                        "access_rules": [
+                            "$weapons, bomb"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Triforce",
+                        "access_rules": [
+                            "$weapons, bomb"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 3192,
+                        "y": 598
+                    }
+                ]
+            },
+            {
+                "name": "Manji (D3)",
+                "sections": [
+                    {
+                        "name": "Raft",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Map",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Compass",
+                        "access_rules": [
+                            "$weapons", "[dangerous]"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Manhandla",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Triforce",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Key Drop (Zols and Keese West)",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Key Drop (Keese North)",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Key Drop (Zols Central)",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Key Drop (Zols South)",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Key Drop (Zols Entrance)",
+                        "access_rules": [
+                            "$weapons", "[dangerous]"
+                        ],
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bomb Drop (Darknuts West)",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bomb Drop (Keese Corridor)",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bomb Drop (Darknuts Central)",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rupee Drop (Zols and Keese East)",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 1160,
+                        "y": 1302
+                    }
+                ]
+            },
+            {
+                "name": "Snake (D4)",
+                "access_rules": ["="],
+                "sections": [
+                    {
+                        "name": "Stepladder",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Map",
+                        "access_rules": [
+                            "$weapons, ladder"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Compass",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Gleeok",
+                        "access_rules": [
+                            "$weapons, ladder"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Triforce",
+                        "access_rules": [
+                            "$weapons, ladder"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Key Drop (Keese Entrance)",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Key Drop (Keese Central)",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Key Drop (Zols)",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Key Drop (Keese North)",
+                        "access_rules": [
+                            "$weapons, ladder"
+                        ],
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 1416,
+                        "y": 774
+                    }
+                ]
+            },
+            {
+                "name": "Lizard (D5)",
+                "sections": [
+                    {
+                        "name": "Recorder",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Map",
+                        "access_rules": [
+                            "$weapons,ladder"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Compass",
+                        "access_rules": [
+                            "$weapons,ladder,bomb"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Digdogger",
+                        "access_rules": [
+                            "$weapons, ladder, bomb, recorder"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Triforce",
+                        "access_rules": [
+                            "$weapons, ladder, bomb, recorder"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Key Drop (Keese North)",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Key Drop (Gibdos North)",
+                        "access_rules": [
+                            "$weapons, ladder, bomb"  
+                        ],
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Key Drop (Gibdos Central)",
+                        "access_rules": [
+                            "$weapons, ladder, bomb"  
+                        ],
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Key Drop (Pols Voice Entrance)",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Key Drop (Gibdos Entrance)",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Key Drop (Gibdos, Keese, and Pols Voice)",
+                        "access_rules": [
+                            "$weapons, ladder, bomb"  
+                        ],
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Key Drop (Zols)",
+                        "access_rules": [
+                            "$weapons, ladder, bomb"  
+                        ],
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bomb Drop (Gibdos)",
+                        "access_rules": [
+                            "$weapons, ladder, bomb"  
+                        ],
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bomb Drop (Dodongos)",
+                        "access_rules": [
+                            "$weapons, ladder, bomb"  
+                        ],
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rupee Drop (Zols)",
+                        "access_rules": [
+                            "$weapons, ladder, bomb"  
+                        ],
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 2935,
+                        "y": 70
+                    }
+                ]
+            },
+            {
+                "name": "Dragon (D6)",
+                "sections": [
+                    {
+                        "name": "Magical Rod",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Map",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Compass",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Gohma",
+                        "access_rules": [
+                            "$weapons, ladder, bow, arrow",
+                            "$weapons, ladder, bow, arrow2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Triforce",
+                        "access_rules": [
+                            "$weapons, ladder, bow, arrow",
+                            "$weapons, ladder, bow, arrow2"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Key Drop (Wizzrobes Entrance)",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Key Drop (Keese)",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Key Drop (Wizzrobes North Island)",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Key Drop (Wizzrobes North Stream)",
+                        "access_rules": [
+                            "$weapons, ladder"
+                        ],
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Key Drop (Vires)",
+                        "access_rules": [
+                            "$weapons, ladder"
+                        ],
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bomb Drop (Wizzrobes)",
+                        "access_rules": [
+                            "$weapons, ladder"
+                        ],
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rupee Drop (Wizzrobes)",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 639,
+                        "y": 420
+                    }
+                ]
+            },
+            {
+                "name": "Demon (D7)",
+                "access_rules": [
+                    "$weapons, recorder"
+                ],
+                "sections": [
+                    {
+                        "name": "Red Candle",
+                        "access_rules": [
+                            "ladder,bomb,recorder"                        
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Map",
+                        "access_rules": [
+                            "ladder,bomb,recorder,food"                        
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Compass",
+                        "access_rules": [
+                            "bomb"                        
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Aquamentus",
+                        "access_rules": [
+                            "ladder,bomb,recorder,food"                        
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Triforce",
+                        "access_rules": [
+                            "ladder,bomb,recorder,food"                        
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Key Drop (Ropes)",
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "access_rules": [
+                            "bomb"                        
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Key Drop (Goriyas)",
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "access_rules": [
+                            "ladder,bomb,recorder,food"                         
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Key Drop (Stalfos)",
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "access_rules": [
+                            "ladder"                       
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Key Drop (Moldorms)",
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "access_rules": [
+                            "ladder,bomb"                       
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bomb Drop (Goriyas South)",
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bomb Drop (Keese and Spikes)",
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "access_rules": [
+                            "bomb"                       
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bomb Drop (Moldorms South)",
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bomb Drop (Moldorms North)",
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "access_rules": [
+                            "ladder,bomb,recorder,food"                       
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bomb Drop (Goriyas North)",
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "access_rules": [
+                            "ladder,bomb,recorder,food"                       
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bomb Drop (Dodongos)",
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "access_rules": [
+                            "ladder,bomb,recorder,food"                       
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bomb Drop (Digdogger)",
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "access_rules": [
+                            "recorder"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rupee Drop (Goriyas Central)",
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "access_rules": [
+                            "ladder,bomb,recorder"                       
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rupee Drop (Dodongos)",
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "access_rules": [
+                            "bomb"                       
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rupee Drop (Goriyas North)",
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "access_rules": [
+                            "ladder,bomb,recorder,food"                       
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 609,
+                        "y": 798
+                    }
+                ]
+            },
+            {
+                "name": "Lion (D8)",
+                "access_rules": [
+                    "$weapons, $fire"
+                ],
+                "sections": [
+                    {
+                        "name": "Magical Key",
+                        "access_rules": [
+                            "bow,$arrows,bomb"                       
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Map",
+                        "access_rules": [
+                            "bomb"                       
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Compass",
+                        "access_rules": [
+                            "bomb"                       
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Book of Magic",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Gleeok",
+                        "access_rules": [
+                            "bomb"                       
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Triforce",
+                        "access_rules": [
+                            "bomb"                       
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Key Drop (Darknuts West)",
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "access_rules": [
+                            "bomb"                       
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Key Drop (Darknuts Far West)",
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "access_rules": [
+                            "bomb"                       
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Key Drop (Pols Voice South)",
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "access_rules": [
+                            "bomb"                       
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Key Drop (Pols Voice and Keese)",
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "access_rules": [
+                            "bomb"                       
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Key Drop (Darknuts Central)",
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "access_rules": [
+                            "bomb"                       
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Key Drop (Keese and Zols Entrance)",
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "access_rules": [
+                            "ladder"                       
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bomb Drop (Darknuts North)",
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "access_rules": [
+                            "bow,$arrows,bomb"                       
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bomb Drop (Darknuts East)",
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "access_rules": [
+                            "bomb"                       
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bomb Drop (Pols Voice North)",
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "access_rules": [
+                            "bomb"                       
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rupee Drop (Manhandla Entrance West)",
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rupee Drop (Manhandla Entrance North)",
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rupee Drop (Darknuts and Gibdos)",
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "access_rules": [
+                            "bomb"                       
+                        ],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 3495,
+                        "y": 1096
+                    }
+                ]
+            },
+            {
+                "name": "Death Mountain (D9)",
+                "access_rules": [
+                    "$weapons, triforce:8"
+                ],
+                "sections": [
+                    {
+                        "name": "Silver Arrow",
+                        "access_rules": [
+                            "bomb"                       
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Red Ring",
+                        "access_rules": [
+                            "bomb"                       
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Map",
+                        "access_rules": [
+                            "bomb"                       
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Compass",
+                        "access_rules": [
+                            "bomb,$fire"                       
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Key Drop (Patra Southwest)",
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "access_rules": [
+                            "bomb"                       
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Key Drop (Like Likes and Zols East)",
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "access_rules": [
+                            "ladder", "bomb"                    
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Key Drop (Wizzrobes and Bubbles East)",
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "access_rules": [
+                            "bomb"                       
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Key Drop (Wizzrobes East Island)",
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "access_rules": [
+                            "bomb,ladder"                       
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bomb Drop (Blue Lanmolas)",
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "access_rules": [
+                            "bomb"                       
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bomb Drop (Gels Lake)",
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "access_rules": [
+                            "bomb,ladder"                       
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bomb Drop (Like Likes and Zols Corridor)",
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "access_rules": [
+                            "bomb"                       
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bomb Drop (Patra Northeast)",
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "access_rules": [
+                            "bomb"                       
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bomb Drop (Vires)",
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "access_rules": [
+                            "bomb"                       
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rupee Drop (Wizzrobes West Island)",
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "access_rules": [
+                            "bomb,ladder"                       
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rupee Drop (Red Lanmolas)",
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "access_rules": [
+                            "bomb,$fire"                       
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rupee Drop (Keese Southwest)",
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "access_rules": [
+                            "bomb,$fire"                       
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rupee Drop (Keese Central Island)",
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "access_rules": [
+                            "bomb,ladder"                       
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rupee Drop (Wizzrobes Central)",
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rupee Drop (Wizzrobes North Island)",
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "access_rules": [
+                            "bomb,ladder"                       
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Rupee Drop (Gels East)",
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "access_rules": [
+                            "bomb"                       
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Ganon: Triforce of Power",
+                        "access_rules": [
+                            "bomb,ladder,$fire,bow,arrow2"                       
+                        ],
+                        "hosted_item": "ganon"
+                    },
+                    {
+                        "name": "Zelda: Rescued Zelda!",
+                        "access_rules": [
+                            "bomb,ladder,$fire,bow,arrow2"                       
+                        ],
+                        "hosted_item": "zelda"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 1375,
+                        "y": 95
                     }
                 ]
             }

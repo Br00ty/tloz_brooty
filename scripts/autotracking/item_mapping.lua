@@ -1,9 +1,28 @@
--- use this file to map the AP item ids to your items
--- first value is the code of the target item and the second is the item type (currently only "toggle", "progressive" and "consumable" but feel free to expand for your needs!)
--- here are the SM items as an example: https://github.com/Cyb3RGER/sm_ap_tracker/blob/main/scripts/autotracking/item_mapping.lua
+-- TLoZ items start at 7100=
 ITEM_MAPPING = {
-    [00000] = {"toggle", "toggle"},
-    [00001] = {"progressive", "progressive"},
-    [00002] = {"consumable", "consumable"},
-    [00003] = {"progressive_toggle", "progressive"} -- progressive_toggle should work with the progressive type but might need additional code to work for your needs
+    [7100] = {"boomerang", "toggle"},
+    [7101] = {"bow", "toggle"},
+    [7102] = {"boomerang2", "toggle"},
+    [7103] = {"raft", "toggle"},
+    [7104] = {"ladder", "toggle"},
+    [7105] = {"flute", "toggle"},
+    [7106] = {"magicrod", "toggle"},
+    [7107] = {"candle2", "toggle"},
+    [7108] = {"magicbook", "toggle"},
+    [7109] = {"magickey", "toggle"},
+    [7110] = {"redring", "toggle"},
+    [7111] = {"arrow2", "toggle"},
+    [7112] = {"sword", "toggle"},
+    [7113] = {"sword2", "toggle"},
+    [7114] = {"sword3", "toggle"},
+    [7115] = {"heart", "consumable"},
+    [7116] = {"letter", "toggle"},
+    [7117] = {"shield2", "toggle"},
+    [7118] = {"candle", "toggle"},
+    [7119] = {"arrow", "toggle"},
+    [7120] = {"food", "toggle"},
+    [7123] = {"bluering", "toggle"},
+    [7124] = {"triforce", "consumable"},
+    [7125] = {"bracelet", "toggle"},
+    [7127] = {"bomb", "toggle"},
 }
