@@ -1,8 +1,8 @@
-# Template Pack for PopTracker
+# The Legend of Zelda Map Tracker 
 
-This a template tracker package for PopTracker.
+This is a map tracker for the AP build of TLoZ Randomizer!
 
-Includes examples for AP and SNES memory autotracking and beginner-friendly explanations in the pack.
+This pack features autotracking when connected to the AP server.
 
 ## Installation
 
@@ -16,4 +16,4 @@ Still having trouble realizing your pack and looking for help or just want more 
 
 ## License
 
-Feel free to use this template without credit for all your PopTracker packs!
+*posts Link's drivers license*
