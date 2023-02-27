@@ -11,8 +11,8 @@
                 "content": [
                     {
                         "type": "itemgrid",
-                        "item_margin": "2, 10",
-                        "margin": "10,0",
+                        "item_margin": "3, 10",
+                        "margin": "0,0",
                         "h_alignment": "left",
                         "rows": [
                             [
@@ -87,7 +87,7 @@
     "shop_grid": {
         "type": "array",
         "orientation": "vertical",
-        "margin": "2,2",
+        "margin": "15,2",
         "content": [
             {
                 "type": "array",
@@ -161,16 +161,16 @@
     "shop_grid2": {
         "type": "array",
         "orientation": "vertical",
-        "margin": "-10,4",
+        "margin": "0,4",
         "content": [
             {
                 "type": "array",
                 "orientation": "vertical",
-                "margin": "-0,0",
+                "margin": "0,0",
                 "content": [
                     {
                         "type": "itemgrid",
-                        "item_margin": "4, 0",
+                        "item_margin": "3, 0",
                         "margin": "0,3",
                         "h_alignment": "left",
                         "item_size": 26,
@@ -182,7 +182,7 @@
                     },
                     {
                         "type": "itemgrid",
-                        "item_margin": "4, 0",
+                        "item_margin": "3, 0",
                         "margin": "0,4",
                         "h_alignment": "left",
                         "item_size": 26,
@@ -194,7 +194,7 @@
                     },
                     {
                         "type": "itemgrid",
-                        "item_margin": "4, 0",
+                        "item_margin": "3, 0",
                         "margin": "0,4",
                         "h_alignment": "left",
                         "item_size": 26,
@@ -206,7 +206,7 @@
                     },
                     {
                         "type": "itemgrid",
-                        "item_margin": "4, 0",
+                        "item_margin": "3, 0",
                         "margin": "0,4",
                         "h_alignment": "left",
                         "item_size": 26,
@@ -218,7 +218,7 @@
                     },
                     {
                         "type": "itemgrid",
-                        "item_margin": "4, 0",
+                        "item_margin": "3, 0",
                         "margin": "0,4",
                         "h_alignment": "left",
                         "item_size": 26,
