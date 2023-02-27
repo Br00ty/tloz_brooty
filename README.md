@@ -16,4 +16,4 @@ Still having trouble realizing your pack and looking for help or just want more 
 
 ## License
 
-*posts Link's drivers license*
+*flashes Link's drivers license*
