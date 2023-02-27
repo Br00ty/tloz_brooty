@@ -6,7 +6,7 @@ This pack features autotracking when connected to the AP server.
 
 ## Installation
 
-Just download the lastest build or source and put in your packs folder (unpacked).
+Just download the lastest [build](https://github.com/Br00ty/tloz_brooty/releases/latest) and put it in your poptracker/packs folder.
 
 ## More Info
 
