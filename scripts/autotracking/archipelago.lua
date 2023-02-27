@@ -152,6 +152,210 @@ function onLocation(location_id, location_name)
     elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
         print(string.format("onLocation: could not find object for code %s", v[1]))
     end
+    if location_name == "Take Any Item Left" then
+        obj = Tracker:FindObjectForCode("@Overworld/Take Any Item (Shore)/Left")
+        obj.AvailableChestCount = obj.AvailableChestCount - 1
+    end
+    if location_name == "Take Any Item Left" then
+        obj = Tracker:FindObjectForCode("@Overworld/Take Any Item (Bush)/Left")
+        obj.AvailableChestCount = obj.AvailableChestCount - 1
+    end
+    if location_name == "Take Any Item Left" then
+        obj = Tracker:FindObjectForCode("@Overworld/Take Any Item (Northeast Raft Spot)/Left")
+        obj.AvailableChestCount = obj.AvailableChestCount - 1
+    end
+    if location_name == "Take Any Item Middle" then
+        obj = Tracker:FindObjectForCode("@Overworld/Take Any Item (Shore)/Middle")
+        obj.AvailableChestCount = obj.AvailableChestCount - 1
+    end
+    if location_name == "Take Any Item Middle" then
+        obj = Tracker:FindObjectForCode("@Overworld/Take Any Item (Bush)/Middle")
+        obj.AvailableChestCount = obj.AvailableChestCount - 1
+    end
+    if location_name == "Take Any Item Middle" then
+        obj = Tracker:FindObjectForCode("@Overworld/Take Any Item (Northeast Raft Spot)/Middle")
+        obj.AvailableChestCount = obj.AvailableChestCount - 1
+    end
+    if location_name == "Take Any Item Right" then
+        obj = Tracker:FindObjectForCode("@Overworld/Take Any Item (Shore)/Right")
+        obj.AvailableChestCount = obj.AvailableChestCount - 1
+    end
+    if location_name == "Take Any Item Right" then
+        obj = Tracker:FindObjectForCode("@Overworld/Take Any Item (Bush)/Right")
+        obj.AvailableChestCount = obj.AvailableChestCount - 1
+    end
+    if location_name == "Take Any Item Right" then
+        obj = Tracker:FindObjectForCode("@Overworld/Take Any Item (Northeast Raft Spot)/Right")
+        obj.AvailableChestCount = obj.AvailableChestCount - 1
+    end
+    if location_name == "Arrow Shop Item Left" then
+        obj = Tracker:FindObjectForCode("@Overworld/Arrow Shop (Desert)/Left")
+        obj.AvailableChestCount = obj.AvailableChestCount - 1
+    end
+    if location_name == "Arrow Shop Item Left" then
+        obj = Tracker:FindObjectForCode("@Overworld/Arrow Shop (Lake)/Left")
+        obj.AvailableChestCount = obj.AvailableChestCount - 1
+    end
+    if location_name == "Arrow Shop Item Left" then
+        obj = Tracker:FindObjectForCode("@Overworld/Arrow Shop (Graveyard)/Left")
+        obj.AvailableChestCount = obj.AvailableChestCount - 1
+    end
+    if location_name == "Arrow Shop Item Middle" then
+        obj = Tracker:FindObjectForCode("@Overworld/Arrow Shop (Desert)/Middle")
+        obj.AvailableChestCount = obj.AvailableChestCount - 1
+    end
+    if location_name == "Arrow Shop Item Middle" then
+        obj = Tracker:FindObjectForCode("@Overworld/Arrow Shop (Lake)/Middle")
+        obj.AvailableChestCount = obj.AvailableChestCount - 1
+    end
+    if location_name == "Arrow Shop Item Middle" then
+        obj = Tracker:FindObjectForCode("@Overworld/Arrow Shop (Graveyard)/Middle")
+        obj.AvailableChestCount = obj.AvailableChestCount - 1
+    end
+    if location_name == "Arrow Shop Item Right" then
+        obj = Tracker:FindObjectForCode("@Overworld/Arrow Shop (Desert)/Right9")
+        obj.AvailableChestCount = obj.AvailableChestCount - 1
+    end
+    if location_name == "Arrow Shop Item Right" then
+        obj = Tracker:FindObjectForCode("@Overworld/Arrow Shop (Lake)/Right")
+        obj.AvailableChestCount = obj.AvailableChestCount - 1
+    end
+    if location_name == "Arrow Shop Item Right" then
+        obj = Tracker:FindObjectForCode("@Overworld/Arrow Shop (Graveyard)/Right")
+        obj.AvailableChestCount = obj.AvailableChestCount - 1
+    end
+    if location_name == "Candle Shop Item Left" then
+        obj = Tracker:FindObjectForCode("@Overworld/Candle Shop (Lost Hills)/Left")
+        obj.AvailableChestCount = obj.AvailableChestCount - 1
+    end
+    if location_name == "Candle Shop Item Left" then
+        obj = Tracker:FindObjectForCode("@Overworld/Candle Shop (Start)/Left")
+        obj.AvailableChestCount = obj.AvailableChestCount - 1
+    end
+    if location_name == "Candle Shop Item Middle" then
+        obj = Tracker:FindObjectForCode("@Overworld/Candle Shop (Lost Hills)/Middle")
+        obj.AvailableChestCount = obj.AvailableChestCount - 1
+    end
+    if location_name == "Candle Shop Item Middle" then
+        obj = Tracker:FindObjectForCode("@Overworld/Candle Shop (Start)/Middle")
+        obj.AvailableChestCount = obj.AvailableChestCount - 1
+    end
+    if location_name == "Candle Shop Item Right" then
+        obj = Tracker:FindObjectForCode("@Overworld/Candle Shop (Lost Hills)/Right")
+        obj.AvailableChestCount = obj.AvailableChestCount - 1
+    end
+    if location_name == "Candle Shop Item Right" then
+        obj = Tracker:FindObjectForCode("@Overworld/Candle Shop (Start)/Right")
+        obj.AvailableChestCount = obj.AvailableChestCount - 1
+    end
+    if location_name == "Shield Shop Item Left" then
+        obj = Tracker:FindObjectForCode("@Overworld/Shield Shop (Corner Bush)/Left")
+        obj.AvailableChestCount = obj.AvailableChestCount - 1
+    end
+    if location_name == "Shield Shop Item Left" then
+        obj = Tracker:FindObjectForCode("@Overworld/Shield Shop (Bomb Wall)/Left")
+        obj.AvailableChestCount = obj.AvailableChestCount - 1
+    end
+    if location_name == "Shield Shop Item Left" then
+        obj = Tracker:FindObjectForCode("@Overworld/Shield Shop (Forgotten Spot)/Left")
+        obj.AvailableChestCount = obj.AvailableChestCount - 1
+    end
+    if location_name == "Shield Shop Item Middle" then
+        obj = Tracker:FindObjectForCode("@Overworld/Shield Shop (Corner Bush)/Middle")
+        obj.AvailableChestCount = obj.AvailableChestCount - 1
+    end
+    if location_name == "Shield Shop Item Middle" then
+        obj = Tracker:FindObjectForCode("@Overworld/Shield Shop (Bomb Wall)/Middle")
+        obj.AvailableChestCount = obj.AvailableChestCount - 1
+    end
+    if location_name == "Shield Shop Item Middle" then
+        obj = Tracker:FindObjectForCode("@Overworld/Shield Shop (Forgotten Spot)/Middle")
+        obj.AvailableChestCount = obj.AvailableChestCount - 1
+    end
+    if location_name == "Shield Shop Item Right" then
+        obj = Tracker:FindObjectForCode("@Overworld/Shield Shop (Corner Bush)/Right")
+        obj.AvailableChestCount = obj.AvailableChestCount - 1
+    end
+    if location_name == "Shield Shop Item Right" then
+        obj = Tracker:FindObjectForCode("@Overworld/Shield Shop (Bomb Wall)/Right")
+        obj.AvailableChestCount = obj.AvailableChestCount - 1
+    end
+    if location_name == "Shield Shop Item Right" then
+        obj = Tracker:FindObjectForCode("@Overworld/Shield Shop (Forgotten Spot)/Right")
+        obj.AvailableChestCount = obj.AvailableChestCount - 1
+    end
+    if location_name == "Potion Shop Item Left" then
+        obj = Tracker:FindObjectForCode("@Overworld/Potion Shop (Desert Bush)/Left")
+        obj.AvailableChestCount = obj.AvailableChestCount - 1
+    end
+    if location_name == "Potion Shop Item Left" then
+        obj = Tracker:FindObjectForCode("@Overworld/Potion Shop (Start Bush)/Left")
+        obj.AvailableChestCount = obj.AvailableChestCount - 1
+    end
+    if location_name == "Potion Shop Item Left" then
+        obj = Tracker:FindObjectForCode("@Overworld/Potion Shop (Desert Bomb Wall)/Left")
+        obj.AvailableChestCount = obj.AvailableChestCount - 1
+    end
+    if location_name == "Potion Shop Item Left" then
+        obj = Tracker:FindObjectForCode("@Overworld/Potion Shop (by D9)/Left")
+        obj.AvailableChestCount = obj.AvailableChestCount - 1
+    end
+    if location_name == "Potion Shop Item Left" then
+        obj = Tracker:FindObjectForCode("@Overworld/Potion Shop (Bomb Wall by D6)/Left")
+        obj.AvailableChestCount = obj.AvailableChestCount - 1
+    end
+    if location_name == "Potion Shop Item Left" then
+        obj = Tracker:FindObjectForCode("@Overworld/Potion Shop (Dead Woods)/Left")
+        obj.AvailableChestCount = obj.AvailableChestCount - 1
+    end
+    if location_name == "Potion Shop Item Middle" then
+        obj = Tracker:FindObjectForCode("@Overworld/Potion Shop (Desert Bush)/Middle")
+        obj.AvailableChestCount = obj.AvailableChestCount - 1
+    end
+    if location_name == "Potion Shop Item Middle" then
+        obj = Tracker:FindObjectForCode("@Overworld/Potion Shop (Start Bush)/Middle")
+        obj.AvailableChestCount = obj.AvailableChestCount - 1
+    end
+    if location_name == "Potion Shop Item Middle" then
+        obj = Tracker:FindObjectForCode("@Overworld/Potion Shop (Desert Bomb Wall)/Middle")
+        obj.AvailableChestCount = obj.AvailableChestCount - 1
+    end
+    if location_name == "Potion Shop Item Middle" then
+        obj = Tracker:FindObjectForCode("@Overworld/Potion Shop (by D9)/Middle")
+        obj.AvailableChestCount = obj.AvailableChestCount - 1
+    end
+    if location_name == "Potion Shop Item Middle" then
+        obj = Tracker:FindObjectForCode("@Overworld/Potion Shop (Bomb Wall by D6)/Middle")
+        obj.AvailableChestCount = obj.AvailableChestCount - 1
+    end
+    if location_name == "Potion Shop Item Middle" then
+        obj = Tracker:FindObjectForCode("@Overworld/Potion Shop (Dead Woods)/Middle")
+        obj.AvailableChestCount = obj.AvailableChestCount - 1
+    end
+    if location_name == "Potion Shop Item Right" then
+        obj = Tracker:FindObjectForCode("@Overworld/Potion Shop (Desert Bush)/Right")
+        obj.AvailableChestCount = obj.AvailableChestCount - 1
+    end
+    if location_name == "Potion Shop Item Right" then
+        obj = Tracker:FindObjectForCode("@Overworld/Potion Shop (Start Bush)/Right")
+        obj.AvailableChestCount = obj.AvailableChestCount - 1
+    end
+    if location_name == "Potion Shop Item Right" then
+        obj = Tracker:FindObjectForCode("@Overworld/Potion Shop (Desert Bomb Wall)/Right")
+        obj.AvailableChestCount = obj.AvailableChestCount - 1
+    end
+    if location_name == "Potion Shop Item Right" then
+        obj = Tracker:FindObjectForCode("@Overworld/Potion Shop (by D9)/Right")
+        obj.AvailableChestCount = obj.AvailableChestCount - 1
+    end
+    if location_name == "Potion Shop Item Right" then
+        obj = Tracker:FindObjectForCode("@Overworld/Potion Shop (Bomb Wall by D6)/Right")
+        obj.AvailableChestCount = obj.AvailableChestCount - 1
+    end
+    if location_name == "Potion Shop Item Right" then
+        obj = Tracker:FindObjectForCode("@Overworld/Potion Shop (Dead Woods)/Right")
+        obj.AvailableChestCount = obj.AvailableChestCount - 1
+    end
     if location_name == "Level 1 Item (Bow)" then
         obj = Tracker:FindObjectForCode("@Eagle Dungeon (D1)/Bow/Freestanding")
         obj.AvailableChestCount = obj.AvailableChestCount - 1
@@ -188,7 +392,7 @@ function onLocation(location_id, location_name)
         obj = Tracker:FindObjectForCode("@Eagle Dungeon (D1)/Moblins/Key Drop")
         obj.AvailableChestCount = obj.AvailableChestCount - 1
     end
-    if location_name == "Level 1 Key Drop (Stalfos Water) (Bow)" then
+    if location_name == "Level 1 Key Drop (Stalfos Water)" then
         obj = Tracker:FindObjectForCode("@Eagle Dungeon (D1)/Stalfos Water/Key Drop")
         obj.AvailableChestCount = obj.AvailableChestCount - 1
     end
@@ -285,7 +489,7 @@ function onLocation(location_id, location_name)
         obj.AvailableChestCount = obj.AvailableChestCount - 1
     end
     if location_name == "Level 3 Key Drop (Zols Entrance)" then
-        obj = Tracker:FindObjectForCode("@Manji (D3)/Zols Entrance/Key")
+        obj = Tracker:FindObjectForCode("@Manji (D3)/Zols Entrance/Key Drop")
         obj.AvailableChestCount = obj.AvailableChestCount - 1
     end
     if location_name == "Level 3 Bomb Drop (Darknuts West)" then

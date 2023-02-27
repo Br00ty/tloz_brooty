@@ -114,30 +114,21 @@
                 ]
             },
             {
-                "name": "Take Any Item",
+                "name": "Take Any Item (Desert)",
                 "access_rules": [
-                    "[$weapons]"
+                    "[$weapons],bomb"
                 ],
                 "sections": [
                     {
                         "name": "Left",
-                        "access_rules": [
-                            "$fire", "raft", "bomb"
-                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Middle",
-                        "access_rules": [
-                            "$fire", "raft", "bomb"
-                        ],
                         "item_count": 1
                     },
                     {
                         "name": "Right",
-                        "access_rules": [
-                            "$fire", "raft", "bomb"
-                        ],
                         "item_count": 1
                     }
                 ],
@@ -146,17 +137,83 @@
                         "map": "overworld",
                         "x": 3222,
                         "y": 457
+                    }
+                ]
+            },
+            {
+                "name": "Take Any Item (Shore)",
+                "access_rules": [
+                    "[$weapons],bomb"
+                ],
+                "sections": [
+                    {
+                        "name": "Left",
+                        "item_count": 1
                     },
+                    {
+                        "name": "Middle",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Right",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
                     {
                         "map": "overworld",
                         "x": 2967,
                         "y": 1255
+                    }
+                ]
+            },
+            {
+                "name": "Take Any Item (Bush)",
+                "access_rules": [
+                    "[$weapons],$fire"
+                ],
+                "sections": [
+                    {
+                        "name": "Left",
+                        "item_count": 1
                     },
+                    {
+                        "name": "Middle",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Right",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
                     {
                         "map": "overworld",
                         "x": 1977,
                         "y": 824
+                    }
+                ]
+            },
+            {
+                "name": "Take Any Item (Northeast Raft Spot)",
+                "access_rules": [
+                    "[$weapons],raft"
+                ],
+                "sections": [
+                    {
+                        "name": "Left",
+                        "item_count": 1
                     },
+                    {
+                        "name": "Middle",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Right",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
                     {
                         "map": "overworld",
                         "x": 3946,
@@ -165,8 +222,8 @@
                 ]
             },
             {
-                "name": "Arrow Shop",
-                "access_rules": ["[$weapons]"],
+                "name": "Arrow Shop (Coast)",
+                "access_rules": ["[$weapons],bomb"],
                 "sections": [
                     {
                         "name": "Left",
@@ -186,17 +243,77 @@
                         "map": "overworld",
                         "x": 3896,
                         "y": 1080
+                    }
+                ]
+            },
+            {
+                "name": "Arrow Shop (Desert)",
+                "access_rules": ["[$weapons]"],
+                "sections": [
+                    {
+                        "name": "Left",
+                        "item_count": 1
                     },
+                    {
+                        "name": "Middle",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Right",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
                     {
                         "map": "overworld",
                         "x": 2744,
                         "y": 727
+                    }
+                ]
+            },
+            {
+                "name": "Arrow Shop (Lake)",
+                "access_rules": ["[$weapons]"],
+                "sections": [
+                    {
+                        "name": "Left",
+                        "item_count": 1
                     },
+                    {
+                        "name": "Middle",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Right",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
                     {
                         "map": "overworld",
                         "x": 1095,
                         "y": 727
+                    }
+                ]
+            },
+            {
+                "name": "Arrow Shop (Graveyard)",
+                "access_rules": ["[$weapons]"],
+                "sections": [
+                    {
+                        "name": "Left",
+                        "item_count": 1
                     },
+                    {
+                        "name": "Middle",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Right",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
                     {
                         "map": "overworld",
                         "x": 1447,
@@ -205,7 +322,7 @@
                 ]
             },
             {
-                "name": "Candle Shop",
+                "name": "Candle Shop (Forest)",
                 "access_rules": [
                     "[$weapons]"
                 ],
@@ -228,12 +345,56 @@
                         "map": "overworld",
                         "x": 3703,
                         "y": 903
+                    }
+                ]
+            },
+            {
+                "name": "Candle Shop (Lost Hills)",
+                "access_rules": [
+                    "[$weapons]"
+                ],
+                "sections": [
+                    {
+                        "name": "Left",
+                        "item_count": 1
                     },
+                    {
+                        "name": "Middle",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Right",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
                     {
                         "map": "overworld",
                         "x": 3208,
                         "y": 23
+                    }
+                ]
+            },
+            {
+                "name": "Candle Shop (Start)",
+                "access_rules": [
+                    "[$weapons]"
+                ],
+                "sections": [
+                    {
+                        "name": "Left",
+                        "item_count": 1
                     },
+                    {
+                        "name": "Middle",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Right",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
                     {
                         "map": "overworld",
                         "x": 1656,
@@ -269,10 +430,10 @@
                 ]
             },
             {
-                "name": "Shield Shop",
+                "name": "Shield Shop (Bush)",
                 "icons": "images/items/shield2.png",
                 "access_rules": [
-                    "[$weapons], $fire", "[$weapons], bomb"
+                    "[$weapons], $fire"
                 ],
                 "sections": [
                     {
@@ -293,17 +454,86 @@
                         "map": "overworld",
                         "x": 3543,
                         "y": 807
+                    }
+                ]
+            },
+            {
+                "name": "Shield Shop (Corner Bush)",
+                "icons": "images/items/shield2.png",
+                "access_rules": [
+                    "[$weapons], $fire"
+                ],
+                "sections": [
+                    {
+                        "name": "Left",
+                        "item_count": 1
                     },
+                    {
+                        "name": "Middle",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Right",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
                     {
                         "map": "overworld",
                         "x": 1686,
                         "y": 823
+                    }
+                ]
+            },
+            {
+                "name": "Shield Shop (Bomb Wall)",
+                "icons": "images/items/shield2.png",
+                "access_rules": [
+                    "[$weapons], bomb"
+                ],
+                "sections": [
+                    {
+                        "name": "Left",
+                        "item_count": 1
                     },
+                    {
+                        "name": "Middle",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Right",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
                     {
                         "map": "overworld",
                         "x": 648,
                         "y": 200
+                    }
+                ]
+            },
+            {
+                "name": "Shield Shop (Forgotten Spot)",
+                "icons": "images/items/shield2.png",
+                "access_rules": [
+                    "[$weapons], bomb"
+                ],
+                "sections": [
+                    {
+                        "name": "Left",
+                        "item_count": 1
                     },
+                    {
+                        "name": "Middle",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Right",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
                     {
                         "map": "overworld",
                         "x": 1588,
@@ -312,9 +542,9 @@
                 ]
             },
             {
-                "name": "Potion Shop",
+                "name": "Potion Shop (Lost Hills Bomb Wall)",
                 "access_rules": [
-                    "letter, [$weapons]"
+                    "letter, [$weapons], bomb"
                 ],
                 "sections": [
                     {
@@ -335,32 +565,164 @@
                         "map": "overworld",
                         "x": 3475,
                         "y": 23
+                    }
+                ]
+            },
+            {
+                "name": "Potion Shop (Desert Bush)",
+                "access_rules": [
+                    "letter, [$weapons], $fire"
+                ],
+                "sections": [
+                    {
+                        "name": "Left",
+                        "item_count": 1
                     },
+                    {
+                        "name": "Middle",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Right",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
                     {
                         "map": "overworld",
                         "x": 2998,
                         "y": 743
+                    }
+                ]
+            },
+            {
+                "name": "Potion Shop (Start Bush)",
+                "access_rules": [
+                    "letter, [$weapons], $fire"
+                ],
+                "sections": [
+                    {
+                        "name": "Left",
+                        "item_count": 1
                     },
+                    {
+                        "name": "Middle",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Right",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
                     {
                         "map": "overworld",
                         "x": 2087,
                         "y": 1336
+                    }
+                ]
+            },
+            {
+                "name": "Potion Shop (Desert Bomb Wall)",
+                "access_rules": [
+                    "letter, [$weapons], bomb"
+                ],
+                "sections": [
+                    {
+                        "name": "Left",
+                        "item_count": 1
                     },
+                    {
+                        "name": "Middle",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Right",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
                     {
                         "map": "overworld",
                         "x": 2022,
                         "y": 374
+                    }
+                ]
+            },
+            {
+                "name": "Potion Shop (by D9)",
+                "access_rules": [
+                    "letter, [$weapons]"
+                ],
+                "sections": [
+                    {
+                        "name": "Left",
+                        "item_count": 1
                     },
+                    {
+                        "name": "Middle",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Right",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
                     {
                         "map": "overworld",
                         "x": 1223,
                         "y": 23
+                    }
+                ]
+            },
+            {
+                "name": "Potion Shop (Bomb Wall by D6)",
+                "access_rules": [
+                    "letter, [$weapons], bomb"
+                ],
+                "sections": [
+                    {
+                        "name": "Left",
+                        "item_count": 1
                     },
+                    {
+                        "name": "Middle",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Right",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
                     {
                         "map": "overworld",
                         "x": 933,
                         "y": 552
+                    }
+                ]
+            },
+            {
+                "name": "Potion Shop (Dead Woods)",
+                "access_rules": [
+                    "letter, [$weapons]"
+                ],
+                "sections": [
+                    {
+                        "name": "Left",
+                        "item_count": 1
                     },
+                    {
+                        "name": "Middle",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Right",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
                     {
                         "map": "overworld",
                         "x": 1143,
@@ -738,19 +1100,19 @@
             },
             {
                 "name": "Snake (D4)",
-                "access_rules": ["="],
+                "access_rules": ["raft"],
                 "sections": [
                     {
                         "name": "Stepladder",
                         "access_rules": [
-                            "$weapons"
+                            "$weapons,$fire"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Map",
                         "access_rules": [
-                            "$weapons, ladder"
+                            "$weapons,ladder,$fire"
                         ],
                         "item_count": 1
                     },
@@ -764,14 +1126,14 @@
                     {
                         "name": "Gleeok",
                         "access_rules": [
-                            "$weapons, ladder"
+                            "$weapons,ladder,$fire"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Triforce",
                         "access_rules": [
-                            "$weapons, ladder"
+                            "$weapons,ladder,$fire"
                         ],
                         "item_count": 1
                     },
@@ -798,7 +1160,7 @@
                     {
                         "name": "Key Drop (Zols)",
                         "access_rules": [
-                            "$weapons"
+                            "$weapons,$fire"
                         ],
                         "visibility_rules": [
                             "pooltrue"
@@ -808,7 +1170,7 @@
                     {
                         "name": "Key Drop (Keese North)",
                         "access_rules": [
-                            "$weapons, ladder"
+                            "$weapons,ladder,$fire"
                         ],
                         "visibility_rules": [
                             "pooltrue"
