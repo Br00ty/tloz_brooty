@@ -270,6 +270,7 @@
             },
             {
                 "name": "Shield Shop",
+                "icons": "images/items/shield2.png",
                 "access_rules": [
                     "[$weapons], $fire", "[$weapons], bomb"
                 ],

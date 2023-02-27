@@ -254,18 +254,6 @@
     ]
   },
   {
-    "name": "Silver Arrows",
-    "type": "toggle",
-    "img": "images/items/arrow2.png",
-    "codes": "arrow2"
-  },
-  {
-    "name": "Silver Arrows",
-    "type": "toggle",
-    "img": "images/items/arrow2.png",
-    "codes": "arrow2"
-  },
-  {
     "name": "Small Key",
     "type": "consumable",
     "img": "images/items/smallkey.png",
@@ -368,5 +356,40 @@
     "type": "toggle",
     "img": "images/icons/Ganon.png",
     "codes": "ganon"
+  },
+  {
+    "name": "Shield Shop",
+    "type": "toggle",
+    "img": "images/icons/shieldshop.png",
+    "codes": "shieldshop",
+    "allow_disabled": false
+  },
+  {
+    "name": "Potion Shop",
+    "type": "toggle",
+    "img": "images/icons/potionshop.png",
+    "codes": "potionshop",
+    "allow_disabled": false
+  },
+  {
+    "name": "Candle Shop",
+    "type": "toggle",
+    "img": "images/icons/candleshop.png",
+    "codes": "candleshop",
+    "allow_disabled": false
+  },
+  {
+    "name": "Arrow Shop",
+    "type": "toggle",
+    "img": "images/icons/arrowshop.png",
+    "codes": "arrowshop",
+    "allow_disabled": false
+  },
+  {
+    "name": "Blue Ring Shop",
+    "type": "toggle",
+    "img": "images/icons/ringshop.png",
+    "codes": "ringshop",
+    "allow_disabled": false
   }
 ]

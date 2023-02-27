@@ -1,0 +1,2297 @@
+[
+    {
+        "name": "Arrow Shop spam",
+        "type": "progressive",
+        "allow_disabled": true,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/items/sword.png",
+                "codes": "1",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/sword2.png",
+                "codes": "2",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/sword3.png",
+                "codes": "3",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/shield2.png",
+                "codes": "4",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bluecandle.png",
+                "codes": "5",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/redcandle.png",
+                "codes": "6",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/boomerang.png",
+                "codes": "7",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/boomerang2.png",
+                "codes": "8",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bomb.png",
+                "codes": "9",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bow.png",
+                "codes": "10",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/arrow.png",
+                "codes": "11",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/arrow2.png",
+                "codes": "12",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/flute.png",
+                "codes": "13",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/food.png",
+                "codes": "14",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/letter.png",
+                "codes": "15",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/magicrod.png",
+                "codes": "16",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/magicbook.png",
+                "codes": "17",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bracelet.png",
+                "codes": "18",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/raft.png",
+                "codes": "19",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/ladder.png",
+                "codes": "20",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bluering.png",
+                "codes": "21",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/redring.png",
+                "codes": "22",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/smallkey.png",
+                "codes": "23",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/heart.png",
+                "codes": "24",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/rupee.png",
+                "codes": "25",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/potion2.png",
+                "codes": "26",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/fairy.png",
+                "codes": "27",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/clock.png",
+                "codes": "28",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/triforce.png",
+                "codes": "29",
+                "inherit_codes": true
+            }
+        ]
+    },
+    {
+        "name": "Arrow Shop spam 2",
+        "type": "progressive",
+        "allow_disabled": true,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/items/sword.png",
+                "codes": "30",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/sword2.png",
+                "codes": "31",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/sword3.png",
+                "codes": "32",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/shield2.png",
+                "codes": "33",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bluecandle.png",
+                "codes": "34",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/redcandle.png",
+                "codes": "35",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/boomerang.png",
+                "codes": "36",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/boomerang2.png",
+                "codes": "37",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bomb.png",
+                "codes": "38",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bow.png",
+                "codes": "39",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/arrow.png",
+                "codes": "40",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/arrow2.png",
+                "codes": "41",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/flute.png",
+                "codes": "42",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/food.png",
+                "codes": "43",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/letter.png",
+                "codes": "44",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/magicrod.png",
+                "codes": "45",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/magicbook.png",
+                "codes": "46",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bracelet.png",
+                "codes": "47",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/raft.png",
+                "codes": "48",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/ladder.png",
+                "codes": "49",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bluering.png",
+                "codes": "50",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/redring.png",
+                "codes": "51",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/smallkey.png",
+                "codes": "52",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/heart.png",
+                "codes": "53",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/rupee.png",
+                "codes": "54",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/potion2.png",
+                "codes": "55",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/fairy.png",
+                "codes": "56",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/clock.png",
+                "codes": "57",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/triforce.png",
+                "codes": "58",
+                "inherit_codes": true
+            }
+        ]
+    },
+    {
+        "name": "Arrow Shop spam 3",
+        "type": "progressive",
+        "allow_disabled": true,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/items/sword.png",
+                "codes": "61",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/sword2.png",
+                "codes": "62",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/sword3.png",
+                "codes": "63",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/shield2.png",
+                "codes": "64",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bluecandle.png",
+                "codes": "65",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/redcandle.png",
+                "codes": "66",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/boomerang.png",
+                "codes": "67",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/boomerang2.png",
+                "codes": "68",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bomb.png",
+                "codes": "69",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bow.png",
+                "codes": "70",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/arrow.png",
+                "codes": "71",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/arrow2.png",
+                "codes": "72",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/flute.png",
+                "codes": "73",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/food.png",
+                "codes": "74",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/letter.png",
+                "codes": "75",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/magicrod.png",
+                "codes": "76",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/magicbook.png",
+                "codes": "77",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bracelet.png",
+                "codes": "78",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/raft.png",
+                "codes": "79",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/ladder.png",
+                "codes": "80",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bluering.png",
+                "codes": "81",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/redring.png",
+                "codes": "82",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/smallkey.png",
+                "codes": "83",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/heart.png",
+                "codes": "84",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/rupee.png",
+                "codes": "85",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/potion2.png",
+                "codes": "86",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/fairy.png",
+                "codes": "87",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/clock.png",
+                "codes": "88",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/triforce.png",
+                "codes": "89",
+                "inherit_codes": true
+            }
+        ]
+    },
+    {
+        "name": "Candle Shop spam",
+        "type": "progressive",
+        "allow_disabled": true,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/items/sword.png",
+                "codes": "91",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/sword2.png",
+                "codes": "92",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/sword3.png",
+                "codes": "93",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/shield2.png",
+                "codes": "94",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bluecandle.png",
+                "codes": "95",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/redcandle.png",
+                "codes": "96",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/boomerang.png",
+                "codes": "97",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/boomerang2.png",
+                "codes": "98",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bomb.png",
+                "codes": "99",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bow.png",
+                "codes": "100",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/arrow.png",
+                "codes": "101",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/arrow2.png",
+                "codes": "102",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/flute.png",
+                "codes": "103",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/food.png",
+                "codes": "104",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/letter.png",
+                "codes": "105",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/magicrod.png",
+                "codes": "106",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/magicbook.png",
+                "codes": "107",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bracelet.png",
+                "codes": "108",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/raft.png",
+                "codes": "109",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/ladder.png",
+                "codes": "110",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bluering.png",
+                "codes": "111",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/redring.png",
+                "codes": "112",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/smallkey.png",
+                "codes": "113",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/heart.png",
+                "codes": "114",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/rupee.png",
+                "codes": "115",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/potion2.png",
+                "codes": "116",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/fairy.png",
+                "codes": "117",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/clock.png",
+                "codes": "118",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/triforce.png",
+                "codes": "119",
+                "inherit_codes": true
+            }
+        ]
+    },
+    {
+        "name": "Candle Shop spam 2",
+        "type": "progressive",
+        "allow_disabled": true,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/items/sword.png",
+                "codes": "121",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/sword2.png",
+                "codes": "122",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/sword3.png",
+                "codes": "123",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/shield2.png",
+                "codes": "124",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bluecandle.png",
+                "codes": "125",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/redcandle.png",
+                "codes": "126",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/boomerang.png",
+                "codes": "127",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/boomerang2.png",
+                "codes": "128",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bomb.png",
+                "codes": "129",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bow.png",
+                "codes": "130",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/arrow.png",
+                "codes": "131",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/arrow2.png",
+                "codes": "132",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/flute.png",
+                "codes": "133",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/food.png",
+                "codes": "134",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/letter.png",
+                "codes": "135",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/magicrod.png",
+                "codes": "136",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/magicbook.png",
+                "codes": "137",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bracelet.png",
+                "codes": "138",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/raft.png",
+                "codes": "139",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/ladder.png",
+                "codes": "140",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bluering.png",
+                "codes": "141",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/redring.png",
+                "codes": "142",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/smallkey.png",
+                "codes": "143",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/heart.png",
+                "codes": "144",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/rupee.png",
+                "codes": "145",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/potion2.png",
+                "codes": "146",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/fairy.png",
+                "codes": "147",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/clock.png",
+                "codes": "148",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/triforce.png",
+                "codes": "149",
+                "inherit_codes": true
+            }
+        ]
+    },
+    {
+        "name": "Candle Shop spam 3",
+        "type": "progressive",
+        "allow_disabled": true,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/items/sword.png",
+                "codes": "151",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/sword2.png",
+                "codes": "152",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/sword3.png",
+                "codes": "153",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/shield2.png",
+                "codes": "154",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bluecandle.png",
+                "codes": "155",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/redcandle.png",
+                "codes": "156",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/boomerang.png",
+                "codes": "157",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/boomerang2.png",
+                "codes": "158",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bomb.png",
+                "codes": "159",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bow.png",
+                "codes": "160",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/arrow.png",
+                "codes": "161",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/arrow2.png",
+                "codes": "162",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/flute.png",
+                "codes": "163",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/food.png",
+                "codes": "164",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/letter.png",
+                "codes": "165",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/magicrod.png",
+                "codes": "166",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/magicbook.png",
+                "codes": "167",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bracelet.png",
+                "codes": "168",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/raft.png",
+                "codes": "169",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/ladder.png",
+                "codes": "170",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bluering.png",
+                "codes": "171",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/redring.png",
+                "codes": "172",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/smallkey.png",
+                "codes": "173",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/heart.png",
+                "codes": "174",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/rupee.png",
+                "codes": "175",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/potion2.png",
+                "codes": "176",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/fairy.png",
+                "codes": "177",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/clock.png",
+                "codes": "178",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/triforce.png",
+                "codes": "179",
+                "inherit_codes": true
+            }
+        ]
+    },
+    {
+        "name": "Potion Shop spam",
+        "type": "progressive",
+        "allow_disabled": true,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/items/sword.png",
+                "codes": "181",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/sword2.png",
+                "codes": "182",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/sword3.png",
+                "codes": "183",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/shield2.png",
+                "codes": "184",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bluecandle.png",
+                "codes": "185",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/redcandle.png",
+                "codes": "186",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/boomerang.png",
+                "codes": "157",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/boomerang2.png",
+                "codes": "188",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bomb.png",
+                "codes": "189",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bow.png",
+                "codes": "190",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/arrow.png",
+                "codes": "191",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/arrow2.png",
+                "codes": "192",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/flute.png",
+                "codes": "193",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/food.png",
+                "codes": "194",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/letter.png",
+                "codes": "195",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/magicrod.png",
+                "codes": "196",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/magicbook.png",
+                "codes": "197",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bracelet.png",
+                "codes": "198",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/raft.png",
+                "codes": "199",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/ladder.png",
+                "codes": "200",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bluering.png",
+                "codes": "201",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/redring.png",
+                "codes": "202",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/smallkey.png",
+                "codes": "203",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/heart.png",
+                "codes": "204",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/rupee.png",
+                "codes": "205",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/potion2.png",
+                "codes": "206",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/fairy.png",
+                "codes": "207",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/clock.png",
+                "codes": "208",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/triforce.png",
+                "codes": "209",
+                "inherit_codes": true
+            }
+        ]
+    },
+    {
+        "name": "Potion Shop spam 2",
+        "type": "progressive",
+        "allow_disabled": true,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/items/sword.png",
+                "codes": "211",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/sword2.png",
+                "codes": "212",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/sword3.png",
+                "codes": "213",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/shield2.png",
+                "codes": "214",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bluecandle.png",
+                "codes": "215",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/redcandle.png",
+                "codes": "216",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/boomerang.png",
+                "codes": "217",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/boomerang2.png",
+                "codes": "218",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bomb.png",
+                "codes": "219",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bow.png",
+                "codes": "220",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/arrow.png",
+                "codes": "221",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/arrow2.png",
+                "codes": "222",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/flute.png",
+                "codes": "223",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/food.png",
+                "codes": "224",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/letter.png",
+                "codes": "225",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/magicrod.png",
+                "codes": "226",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/magicbook.png",
+                "codes": "227",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bracelet.png",
+                "codes": "228",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/raft.png",
+                "codes": "229",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/ladder.png",
+                "codes": "230",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bluering.png",
+                "codes": "231",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/redring.png",
+                "codes": "232",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/smallkey.png",
+                "codes": "233",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/heart.png",
+                "codes": "234",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/rupee.png",
+                "codes": "235",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/potion2.png",
+                "codes": "236",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/fairy.png",
+                "codes": "237",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/clock.png",
+                "codes": "238",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/triforce.png",
+                "codes": "239",
+                "inherit_codes": true
+            }
+        ]
+    },
+    {
+        "name": "Potion Shop spam 3",
+        "type": "progressive",
+        "allow_disabled": true,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/items/sword.png",
+                "codes": "241",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/sword2.png",
+                "codes": "242",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/sword3.png",
+                "codes": "243",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/shield2.png",
+                "codes": "244",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bluecandle.png",
+                "codes": "245",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/redcandle.png",
+                "codes": "246",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/boomerang.png",
+                "codes": "247",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/boomerang2.png",
+                "codes": "248",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bomb.png",
+                "codes": "249",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bow.png",
+                "codes": "250",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/arrow.png",
+                "codes": "251",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/arrow2.png",
+                "codes": "252",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/flute.png",
+                "codes": "253",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/food.png",
+                "codes": "254",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/letter.png",
+                "codes": "255",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/magicrod.png",
+                "codes": "256",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/magicbook.png",
+                "codes": "257",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bracelet.png",
+                "codes": "258",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/raft.png",
+                "codes": "259",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/ladder.png",
+                "codes": "260",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bluering.png",
+                "codes": "261",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/redring.png",
+                "codes": "262",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/smallkey.png",
+                "codes": "263",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/heart.png",
+                "codes": "264",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/rupee.png",
+                "codes": "265",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/potion2.png",
+                "codes": "266",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/fairy.png",
+                "codes": "267",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/clock.png",
+                "codes": "268",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/triforce.png",
+                "codes": "269",
+                "inherit_codes": true
+            }
+        ]
+    },
+    {
+        "name": "Ring shop spam",
+        "type": "progressive",
+        "allow_disabled": true,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/items/sword.png",
+                "codes": "271",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/sword2.png",
+                "codes": "272",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/sword3.png",
+                "codes": "273",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/shield2.png",
+                "codes": "274",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bluecandle.png",
+                "codes": "275",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/redcandle.png",
+                "codes": "276",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/boomerang.png",
+                "codes": "277",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/boomerang2.png",
+                "codes": "278",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bomb.png",
+                "codes": "279",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bow.png",
+                "codes": "280",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/arrow.png",
+                "codes": "281",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/arrow2.png",
+                "codes": "282",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/flute.png",
+                "codes": "283",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/food.png",
+                "codes": "284",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/letter.png",
+                "codes": "285",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/magicrod.png",
+                "codes": "286",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/magicbook.png",
+                "codes": "287",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bracelet.png",
+                "codes": "288",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/raft.png",
+                "codes": "289",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/ladder.png",
+                "codes": "290",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bluering.png",
+                "codes": "291",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/redring.png",
+                "codes": "292",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/smallkey.png",
+                "codes": "293",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/heart.png",
+                "codes": "294",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/rupee.png",
+                "codes": "295",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/potion2.png",
+                "codes": "296",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/fairy.png",
+                "codes": "297",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/clock.png",
+                "codes": "298",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/triforce.png",
+                "codes": "299",
+                "inherit_codes": true
+            }
+        ]
+    },
+    {
+        "name": "Ring shop spam 2",
+        "type": "progressive",
+        "allow_disabled": true,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/items/sword.png",
+                "codes": "301",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/sword2.png",
+                "codes": "302",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/sword3.png",
+                "codes": "303",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/shield2.png",
+                "codes": "304",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bluecandle.png",
+                "codes": "305",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/redcandle.png",
+                "codes": "306",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/boomerang.png",
+                "codes": "307",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/boomerang2.png",
+                "codes": "308",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bomb.png",
+                "codes": "309",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bow.png",
+                "codes": "310",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/arrow.png",
+                "codes": "311",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/arrow2.png",
+                "codes": "312",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/flute.png",
+                "codes": "313",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/food.png",
+                "codes": "314",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/letter.png",
+                "codes": "315",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/magicrod.png",
+                "codes": "316",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/magicbook.png",
+                "codes": "317",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bracelet.png",
+                "codes": "318",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/raft.png",
+                "codes": "319",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/ladder.png",
+                "codes": "320",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bluering.png",
+                "codes": "321",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/redring.png",
+                "codes": "322",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/smallkey.png",
+                "codes": "323",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/heart.png",
+                "codes": "324",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/rupee.png",
+                "codes": "325",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/potion2.png",
+                "codes": "326",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/fairy.png",
+                "codes": "327",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/clock.png",
+                "codes": "328",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/triforce.png",
+                "codes": "329",
+                "inherit_codes": true
+            }
+        ]
+    },
+    {
+        "name": "Ring shop spam 3",
+        "type": "progressive",
+        "allow_disabled": true,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/items/sword.png",
+                "codes": "331",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/sword2.png",
+                "codes": "332",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/sword3.png",
+                "codes": "333",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/shield2.png",
+                "codes": "334",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bluecandle.png",
+                "codes": "335",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/redcandle.png",
+                "codes": "336",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/boomerang.png",
+                "codes": "337",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/boomerang2.png",
+                "codes": "338",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bomb.png",
+                "codes": "339",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bow.png",
+                "codes": "340",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/arrow.png",
+                "codes": "341",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/arrow2.png",
+                "codes": "342",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/flute.png",
+                "codes": "343",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/food.png",
+                "codes": "344",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/letter.png",
+                "codes": "345",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/magicrod.png",
+                "codes": "346",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/magicbook.png",
+                "codes": "347",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bracelet.png",
+                "codes": "348",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/raft.png",
+                "codes": "349",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/ladder.png",
+                "codes": "350",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bluering.png",
+                "codes": "351",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/redring.png",
+                "codes": "352",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/smallkey.png",
+                "codes": "353",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/heart.png",
+                "codes": "354",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/rupee.png",
+                "codes": "355",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/potion2.png",
+                "codes": "356",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/fairy.png",
+                "codes": "357",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/clock.png",
+                "codes": "358",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/triforce.png",
+                "codes": "359",
+                "inherit_codes": true
+            }
+        ]
+    },
+    {
+        "name": "Shield shop spam",
+        "type": "progressive",
+        "allow_disabled": true,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/items/sword.png",
+                "codes": "361",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/sword2.png",
+                "codes": "362",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/sword3.png",
+                "codes": "363",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/shield2.png",
+                "codes": "364",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bluecandle.png",
+                "codes": "365",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/redcandle.png",
+                "codes": "366",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/boomerang.png",
+                "codes": "367",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/boomerang2.png",
+                "codes": "368",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bomb.png",
+                "codes": "369",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bow.png",
+                "codes": "370",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/arrow.png",
+                "codes": "371",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/arrow2.png",
+                "codes": "372",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/flute.png",
+                "codes": "373",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/food.png",
+                "codes": "374",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/letter.png",
+                "codes": "375",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/magicrod.png",
+                "codes": "376",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/magicbook.png",
+                "codes": "377",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bracelet.png",
+                "codes": "378",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/raft.png",
+                "codes": "379",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/ladder.png",
+                "codes": "380",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bluering.png",
+                "codes": "381",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/redring.png",
+                "codes": "382",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/smallkey.png",
+                "codes": "383",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/heart.png",
+                "codes": "384",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/rupee.png",
+                "codes": "385",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/potion2.png",
+                "codes": "386",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/fairy.png",
+                "codes": "387",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/clock.png",
+                "codes": "388",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/triforce.png",
+                "codes": "389",
+                "inherit_codes": true
+            }
+        ]
+    },
+    {
+        "name": "Shield shop spam 2",
+        "type": "progressive",
+        "allow_disabled": true,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/items/sword.png",
+                "codes": "391",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/sword2.png",
+                "codes": "392",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/sword3.png",
+                "codes": "393",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/shield2.png",
+                "codes": "394",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bluecandle.png",
+                "codes": "395",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/redcandle.png",
+                "codes": "396",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/boomerang.png",
+                "codes": "397",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/boomerang2.png",
+                "codes": "398",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bomb.png",
+                "codes": "399",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bow.png",
+                "codes": "400",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/arrow.png",
+                "codes": "401",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/arrow2.png",
+                "codes": "402",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/flute.png",
+                "codes": "403",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/food.png",
+                "codes": "404",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/letter.png",
+                "codes": "405",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/magicrod.png",
+                "codes": "406",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/magicbook.png",
+                "codes": "407",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bracelet.png",
+                "codes": "408",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/raft.png",
+                "codes": "409",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/ladder.png",
+                "codes": "410",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bluering.png",
+                "codes": "411",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/redring.png",
+                "codes": "412",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/smallkey.png",
+                "codes": "413",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/heart.png",
+                "codes": "414",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/rupee.png",
+                "codes": "415",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/potion2.png",
+                "codes": "416",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/fairy.png",
+                "codes": "417",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/clock.png",
+                "codes": "418",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/triforce.png",
+                "codes": "419",
+                "inherit_codes": true
+            }
+        ]
+    },
+    {
+        "name": "Shield shop spam 3",
+        "type": "progressive",
+        "allow_disabled": true,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/items/sword.png",
+                "codes": "421",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/sword2.png",
+                "codes": "422",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/sword3.png",
+                "codes": "423",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/shield2.png",
+                "codes": "424",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bluecandle.png",
+                "codes": "425",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/redcandle.png",
+                "codes": "426",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/boomerang.png",
+                "codes": "427",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/boomerang2.png",
+                "codes": "428",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bomb.png",
+                "codes": "429",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bow.png",
+                "codes": "430",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/arrow.png",
+                "codes": "431",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/arrow2.png",
+                "codes": "432",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/flute.png",
+                "codes": "433",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/food.png",
+                "codes": "434",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/letter.png",
+                "codes": "435",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/magicrod.png",
+                "codes": "436",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/magicbook.png",
+                "codes": "437",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bracelet.png",
+                "codes": "438",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/raft.png",
+                "codes": "439",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/ladder.png",
+                "codes": "440",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/bluering.png",
+                "codes": "441",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/redring.png",
+                "codes": "442",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/smallkey.png",
+                "codes": "443",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/heart.png",
+                "codes": "444",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/rupee.png",
+                "codes": "445",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/potion2.png",
+                "codes": "446",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/fairy.png",
+                "codes": "447",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/clock.png",
+                "codes": "448",
+                "inherit_codes": true
+            },
+            {
+                "img": "images/items/triforce.png",
+                "codes": "449",
+                "inherit_codes": true
+            }
+        ]
+    }
+]
