@@ -545,63 +545,63 @@ function onLocation(location_id, location_name)
         obj.AvailableChestCount = obj.AvailableChestCount - 1
     end
     if location_name == "Level 5 Item (Recorder)" then
-        obj = Tracker:FindObjectForCode("@Snake/Recorder/Freestanding")
+        obj = Tracker:FindObjectForCode("@Lizard (D5)/Recorder/Freestanding")
         obj.AvailableChestCount = obj.AvailableChestCount - 1
     end
     if location_name == "Level 5 Map" then
-        obj = Tracker:FindObjectForCode("@Snake/Map/Freestanding")
+        obj = Tracker:FindObjectForCode("@Lizard (D5)/Map/Freestanding")
         obj.AvailableChestCount = obj.AvailableChestCount - 1
     end
     if location_name == "Level 5 Compass" then
-        obj = Tracker:FindObjectForCode("@Snake/Compass/Freestanding")
+        obj = Tracker:FindObjectForCode("@Lizard (D5)/Compass/Freestanding")
         obj.AvailableChestCount = obj.AvailableChestCount - 1
     end
     if location_name == "Level 5 Boss" then
-        obj = Tracker:FindObjectForCode("@Snake/Digdogger/Boss")
+        obj = Tracker:FindObjectForCode("@Lizard (D5)/Digdogger/Boss")
         obj.AvailableChestCount = obj.AvailableChestCount - 1
     end
     if location_name == "Level 5 Triforce" then
-        obj = Tracker:FindObjectForCode("@Snake/Triforce/Freestanding")
+        obj = Tracker:FindObjectForCode("@Lizard (D5)/Triforce/Freestanding")
         obj.AvailableChestCount = obj.AvailableChestCount - 1
     end
     if location_name == "Level 5 Key Drop (Keese North)" then
-        obj = Tracker:FindObjectForCode("@Snake/Keese North/Key Drop")
+        obj = Tracker:FindObjectForCode("@Lizard (D5)/Keese North/Key Drop")
         obj.AvailableChestCount = obj.AvailableChestCount - 1
     end
     if location_name == "Level 5 Key Drop (Gibdos North)" then
-        obj = Tracker:FindObjectForCode("@Snake/Gibdos North/Key Drop")
+        obj = Tracker:FindObjectForCode("@Lizard (D5)/Gibdos North/Key Drop")
         obj.AvailableChestCount = obj.AvailableChestCount - 1
     end
     if location_name == "Level 5 Key Drop (Gibdos Central)" then
-        obj = Tracker:FindObjectForCode("@Snake/Gibdos Central/Key Drop")
+        obj = Tracker:FindObjectForCode("@Lizard (D5)/Gibdos Central/Key Drop")
         obj.AvailableChestCount = obj.AvailableChestCount - 1
     end
     if location_name == "Level 5 Key Drop (Pols Voice Entrance)" then
-        obj = Tracker:FindObjectForCode("@Snake/Pols Voice Entrance/Key Drop")
+        obj = Tracker:FindObjectForCode("@Lizard (D5)/Pols Voice Entrance/Key Drop")
         obj.AvailableChestCount = obj.AvailableChestCount - 1
     end
     if location_name == "Level 5 Key Drop (Gibdos Entrance)" then
-        obj = Tracker:FindObjectForCode("@Snake/Gibdos Entrance/Key Drop")
+        obj = Tracker:FindObjectForCode("@Lizard (D5)/Gibdos Entrance/Key Drop")
         obj.AvailableChestCount = obj.AvailableChestCount - 1
     end
     if location_name == "Level 5 Key Drop (Gibdos, Keese, and Pols Voice)" then
-        obj = Tracker:FindObjectForCode("@Snake/Gibdos, Keese, and Pols Voice/Key Drop")
+        obj = Tracker:FindObjectForCode("@Lizard (D5)/Gibdos, Keese, and Pols Voice/Key Drop")
         obj.AvailableChestCount = obj.AvailableChestCount - 1
     end
     if location_name == "Level 5 Key Drop (Zols)" then
-        obj = Tracker:FindObjectForCode("@Snake/Zols (Key)/Key Drop")
+        obj = Tracker:FindObjectForCode("@Lizard (D5)/Zols (Key)/Key Drop")
         obj.AvailableChestCount = obj.AvailableChestCount - 1
     end
     if location_name == "Level 5 Bomb Drop (Gibdos)" then
-        obj = Tracker:FindObjectForCode("@Snake/Gibdos/Bomb Drop")
+        obj = Tracker:FindObjectForCode("@Lizard (D5)/Gibdos/Bomb Drop")
         obj.AvailableChestCount = obj.AvailableChestCount - 1
     end
     if location_name == "Level 5 Bomb Drop (Dodongos)" then
-        obj = Tracker:FindObjectForCode("@Snake/Dodongos/Bomb Drop")
+        obj = Tracker:FindObjectForCode("@Lizard (D5)/Dodongos/Bomb Drop")
         obj.AvailableChestCount = obj.AvailableChestCount - 1
     end
     if location_name == "Level 5 Rupee Drop (Zols)" then
-        obj = Tracker:FindObjectForCode("@Snake/Zols (Rupee)/Rupee Drop")
+        obj = Tracker:FindObjectForCode("@Lizard (D5)/Zols (Rupee)/Rupee Drop")
         obj.AvailableChestCount = obj.AvailableChestCount - 1
     end
     if location_name == "Level 6 Item (Magical Rod)" then
@@ -617,7 +617,7 @@ function onLocation(location_id, location_name)
         obj.AvailableChestCount = obj.AvailableChestCount - 1
     end
     if location_name == "Level 6 Boss" then
-        obj = Tracker:FindObjectForCode("@Dragon (D6)/Zols/Boss")
+        obj = Tracker:FindObjectForCode("@Dragon (D6)/Gohma/Boss")
         obj.AvailableChestCount = obj.AvailableChestCount - 1
     end
     if location_name == "Level 6 Triforce" then
@@ -645,11 +645,11 @@ function onLocation(location_id, location_name)
         obj.AvailableChestCount = obj.AvailableChestCount - 1
     end
     if location_name == "Level 6 Bomb Drop (Wizzrobes)" then
-        obj = Tracker:FindObjectForCode("@Dragon (D6)/Wizzrobes (Bomb)/Key Drop")
+        obj = Tracker:FindObjectForCode("@Dragon (D6)/Wizzrobes (Bomb)/Bomb Drop")
         obj.AvailableChestCount = obj.AvailableChestCount - 1
     end
     if location_name == "Level 6 Rupee Drop (Wizzrobes)" then
-        obj = Tracker:FindObjectForCode("@Dragon (D6)/Wizzrobes (Rupee)/Key Drop")
+        obj = Tracker:FindObjectForCode("@Dragon (D6)/Wizzrobes (Rupee)/Rupee Drop")
         obj.AvailableChestCount = obj.AvailableChestCount - 1
     end
     if location_name == "Level 7 Item (Red Candle)" then
@@ -737,11 +737,11 @@ function onLocation(location_id, location_name)
         obj.AvailableChestCount = obj.AvailableChestCount - 1
     end
     if location_name == "Level 8 Compass" then
-        obj = Tracker:FindObjectForCode("Lion (D8)/Compass/Freestanding")
+        obj = Tracker:FindObjectForCode("@Lion (D8)/Compass/Freestanding")
         obj.AvailableChestCount = obj.AvailableChestCount - 1
     end
     if location_name == "Level 8 Item (Book of Magic)" then
-        obj = Tracker:FindObjectForCode("Lion (D8)/Book of Magic/Freestanding")
+        obj = Tracker:FindObjectForCode("@Lion (D8)/Book of Magic/Freestanding")
         obj.AvailableChestCount = obj.AvailableChestCount - 1
     end
     if location_name == "Level 8 Boss" then

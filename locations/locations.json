@@ -734,79 +734,7 @@
                 "name": "Eagle Dungeon (D1)",
                 "sections": [
                     {
-                        "name": "Bow",
-                        "access_rules": [
-                            "$weapons"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Boomerang",
-                        "access_rules": [
-                            "$weapons"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Map",
-                        "access_rules": [
-                            "$weapons"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Compass",
-                        "access_rules": [
-                            "[dangerous]","$weapons"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Aquamentus",
-                        "access_rules": [
-                            "$weapons"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Triforce",
-                        "access_rules": [
-                            "$weapons"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Key Drop (Keese Entrance)",
-                        "access_rules": [
-                            "$weapons"
-                        ],
-                        "visibility_rules": [
-                            "pooltrue"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Key Drop (Stalfos Middle)",
-                        "access_rules": [
-                            "$weapons"
-                        ],
-                        "visibility_rules": [
-                            "pooltrue"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Key Drop (Moblins)",
-                        "access_rules": [
-                            "$weapons"
-                        ],
-                        "visibility_rules": [
-                            "pooltrue"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Key Drop (Stalfos Water)",
                         "access_rules": [
                             "$weapons"
                         ],
@@ -826,12 +754,84 @@
                         "item_count": 1
                     },
                     {
+                        "name": "Key Drop (Stalfos Middle)",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Map",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Key Drop (Stalfos Water)",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Key Drop (Moblins)",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bow",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Compass",
+                        "access_rules": [
+                            "[dangerous]","$weapons"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Boomerang",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "item_count": 1
+                    },
+                    {
                         "name": "Key Drop (Wallmasters)",
                         "access_rules": [
                             "$weapons"
                         ],
                         "visibility_rules": [
                             "pooltrue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Aquamentus",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Triforce",
+                        "access_rules": [
+                            "$weapons"
                         ],
                         "item_count": 1
                     }
@@ -965,81 +965,6 @@
                 "name": "Manji (D3)",
                 "sections": [
                     {
-                        "name": "Raft",
-                        "access_rules": [
-                            "$weapons"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Map",
-                        "access_rules": [
-                            "$weapons"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Compass",
-                        "access_rules": [
-                            "$weapons", "[dangerous]"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Manhandla",
-                        "access_rules": [
-                            "$weapons"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Triforce",
-                        "access_rules": [
-                            "$weapons"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Key Drop (Zols and Keese West)",
-                        "access_rules": [
-                            "$weapons"
-                        ],
-                        "visibility_rules": [
-                            "pooltrue"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Key Drop (Keese North)",
-                        "access_rules": [
-                            "$weapons"
-                        ],
-                        "visibility_rules": [
-                            "pooltrue"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Key Drop (Zols Central)",
-                        "access_rules": [
-                            "$weapons"
-                        ],
-                        "visibility_rules": [
-                            "pooltrue"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Key Drop (Zols South)",
-                        "access_rules": [
-                            "$weapons"
-                        ],
-                        "visibility_rules": [
-                            "pooltrue"
-                        ],
-                        "item_count": 1
-                    },
-                    {
                         "name": "Key Drop (Zols Entrance)",
                         "access_rules": [
                             "$weapons", "[dangerous]"
@@ -1050,17 +975,7 @@
                         "item_count": 1
                     },
                     {
-                        "name": "Bomb Drop (Darknuts West)",
-                        "access_rules": [
-                            "$weapons"
-                        ],
-                        "visibility_rules": [
-                            "pooltrue"
-                        ],
-                        "item_count": 1
-                    },
-                    {
-                        "name": "Bomb Drop (Keese Corridor)",
+                        "name": "Key Drop (Zols South)",
                         "access_rules": [
                             "$weapons"
                         ],
@@ -1080,12 +995,97 @@
                         "item_count": 1
                     },
                     {
+                        "name": "Compass",
+                        "access_rules": [
+                            "$weapons", "[dangerous]"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bomb Drop (Darknuts West)",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Raft",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Key Drop (Zols and Keese West)",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Bomb Drop (Keese Corridor)",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Key Drop (Zols Central)",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Key Drop (Keese North)",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "visibility_rules": [
+                            "pooltrue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Map",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "item_count": 1
+                    },
+                    {
                         "name": "Rupee Drop (Zols and Keese East)",
                         "access_rules": [
                             "$weapons"
                         ],
                         "visibility_rules": [
                             "pooltrue"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Manhandla",
+                        "access_rules": [
+                            "$weapons"
+                        ],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Triforce",
+                        "access_rules": [
+                            "$weapons"
                         ],
                         "item_count": 1
                     }
@@ -1213,14 +1213,14 @@
                     {
                         "name": "Digdogger",
                         "access_rules": [
-                            "$weapons, ladder, bomb, recorder"
+                            "$weapons, ladder, bomb, flute"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Triforce",
                         "access_rules": [
-                            "$weapons, ladder, bomb, recorder"
+                            "$weapons, ladder, bomb, flute"
                         ],
                         "item_count": 1
                     },
@@ -1455,20 +1455,20 @@
             {
                 "name": "Demon (D7)",
                 "access_rules": [
-                    "$weapons, recorder"
+                    "$weapons, flute"
                 ],
                 "sections": [
                     {
                         "name": "Red Candle",
                         "access_rules": [
-                            "ladder,bomb,recorder"                        
+                            "ladder,bomb,flute"                        
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Map",
                         "access_rules": [
-                            "ladder,bomb,recorder,food"                        
+                            "ladder,bomb,flute,food"                        
                         ],
                         "item_count": 1
                     },
@@ -1482,14 +1482,14 @@
                     {
                         "name": "Aquamentus",
                         "access_rules": [
-                            "ladder,bomb,recorder,food"                        
+                            "ladder,bomb,flute,food"                        
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Triforce",
                         "access_rules": [
-                            "ladder,bomb,recorder,food"                        
+                            "ladder,bomb,flute,food"                        
                         ],
                         "item_count": 1
                     },
@@ -1509,7 +1509,7 @@
                             "pooltrue"
                         ],
                         "access_rules": [
-                            "ladder,bomb,recorder,food"                         
+                            "ladder,bomb,flute,food"                         
                         ],
                         "item_count": 1
                     },
@@ -1563,7 +1563,7 @@
                             "pooltrue"
                         ],
                         "access_rules": [
-                            "ladder,bomb,recorder,food"                       
+                            "ladder,bomb,flute,food"                       
                         ],
                         "item_count": 1
                     },
@@ -1573,7 +1573,7 @@
                             "pooltrue"
                         ],
                         "access_rules": [
-                            "ladder,bomb,recorder,food"                       
+                            "ladder,bomb,flute,food"                       
                         ],
                         "item_count": 1
                     },
@@ -1583,7 +1583,7 @@
                             "pooltrue"
                         ],
                         "access_rules": [
-                            "ladder,bomb,recorder,food"                       
+                            "ladder,bomb,flute,food"                       
                         ],
                         "item_count": 1
                     },
@@ -1593,7 +1593,7 @@
                             "pooltrue"
                         ],
                         "access_rules": [
-                            "recorder"
+                            "flute"
                         ],
                         "item_count": 1
                     },
@@ -1603,7 +1603,7 @@
                             "pooltrue"
                         ],
                         "access_rules": [
-                            "ladder,bomb,recorder"                       
+                            "ladder,bomb,flute"                       
                         ],
                         "item_count": 1
                     },
@@ -1623,7 +1623,7 @@
                             "pooltrue"
                         ],
                         "access_rules": [
-                            "ladder,bomb,recorder,food"                       
+                            "ladder,bomb,flute,food"                       
                         ],
                         "item_count": 1
                     }

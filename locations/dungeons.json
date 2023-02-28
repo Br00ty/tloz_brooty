@@ -1054,7 +1054,7 @@
             {
                 "name": "Digdogger",
                 "access_rules": [
-                    "$weapons, ladder, bomb, recorder"                       
+                    "$weapons, ladder, bomb, flute"                       
                 ],
                 "sections": [
                     {
@@ -1073,7 +1073,7 @@
             {
                 "name": "Triforce",
                 "access_rules": [
-                    "$weapons, ladder, bomb, recorder"                        
+                    "$weapons, ladder, bomb, flute"                        
                 ],
                 "sections": [
                     {
@@ -1505,7 +1505,7 @@
                     {
                         "map": "level6",
                         "x": 1407,
-                        "y": 139
+                        "y": 439
                     }
                 ]
             },
@@ -1555,13 +1555,13 @@
     {
         "name": "Demon (D7)",
         "access_rules": [
-            "$weapons, recorder"                        
+            "$weapons, flute"                        
         ],
         "children": [
             {
                 "name": "Red Candle",
                 "access_rules": [
-                    "ladder,bomb,recorder"                        
+                    "ladder,bomb,flute"                        
                 ],
                 "sections": [
                     {
@@ -1580,7 +1580,7 @@
             {
                 "name": "Map",
                 "access_rules": [
-                    "ladder,bomb,recorder,food"                        
+                    "ladder,bomb,flute,food"                        
                 ],
                 "sections": [
                     {
@@ -1618,7 +1618,7 @@
             {
                 "name": "Aquamentus",
                 "access_rules": [
-                    "ladder,bomb,recorder,food"                        
+                    "ladder,bomb,flute,food"                        
                 ],
                 "sections": [
                     {
@@ -1637,7 +1637,7 @@
             {
                 "name": "Triforce",
                 "access_rules": [
-                    "ladder,bomb,recorder,food"                        
+                    "ladder,bomb,flute,food"                        
                 ],
                 "sections": [
                     {
@@ -1678,7 +1678,7 @@
             {
                 "name": "Goriyas",
                 "access_rules": [
-                    "ladder,bomb,recorder,food" 
+                    "ladder,bomb,flute,food" 
                 ],
                 "visibility_rules": [
                     "pooltrue"
@@ -1807,7 +1807,7 @@
                     "pooltrue"
                 ],
                 "access_rules": [
-                    "ladder,bomb,recorder,food"                         
+                    "ladder,bomb,flute,food"                         
                 ],
                 "sections": [
                     {
@@ -1829,7 +1829,7 @@
                     "pooltrue"
                 ],
                 "access_rules": [
-                    "ladder,bomb,recorder,food"                     
+                    "ladder,bomb,flute,food"                     
                 ],
                 "sections": [
                     {
@@ -1851,7 +1851,7 @@
                     "pooltrue"
                 ],
                 "access_rules": [
-                    "ladder,bomb,recorder,food"                       
+                    "ladder,bomb,flute,food"                       
                 ],
                 "sections": [
                     {
@@ -1873,7 +1873,7 @@
                     "pooltrue"
                 ],
                 "access_rules": [
-                    "recorder"
+                    "flute"
                 ],
                 "sections": [
                     {
@@ -1895,7 +1895,7 @@
                     "pooltrue"
                 ],
                 "access_rules": [
-                    "ladder,bomb,recorder"                       
+                    "ladder,bomb,flute"                       
                 ],
                 "sections": [
                     {
@@ -1939,7 +1939,7 @@
                     "pooltrue"
                 ],
                 "access_rules": [
-                    "ladder,bomb,recorder,food"                       
+                    "ladder,bomb,flute,food"                       
                 ],
                 "sections": [
                     {
