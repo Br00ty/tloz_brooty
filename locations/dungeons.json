@@ -804,7 +804,7 @@
     },
     {
         "name": "Snake (D4)",
-        "access_rules": ["raft"],
+        "access_rules": ["raft","flute"],
         "children": [
             {
                 "name": "Stepladder",

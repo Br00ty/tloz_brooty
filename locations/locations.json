@@ -1100,7 +1100,7 @@
             },
             {
                 "name": "Snake (D4)",
-                "access_rules": ["raft"],
+                "access_rules": ["raft","flute"],
                 "sections": [
                     {
                         "name": "Stepladder",
