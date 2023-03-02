@@ -1095,7 +1095,7 @@
             {
                 "name": "Keese North",
                 "access_rules": [
-                    "$weapons"                        
+                    "$weapons,ladder"                       
                 ],
                 "visibility_rules": [
                     "pooltrue"
@@ -1249,7 +1249,7 @@
             {
                 "name": "Gibdos",
                 "access_rules": [
-                    "$weapons, ladder, bomb"                        
+                    "$weapons, ladder", "$weapons,bomb"                         
                 ],
                 "visibility_rules": [
                     "pooltrue"
