@@ -40,7 +40,7 @@
             {
                 "name": "Magical Sword Grave",
                 "access_rules": [
-                    "[$weapons], heart:10"                               
+                    "sword2, heart:10"                               
                 ],
                 "sections": [
                     {
