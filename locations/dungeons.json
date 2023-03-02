@@ -804,7 +804,7 @@
     },
     {
         "name": "Snake (D4)",
-        "access_rules": ["raft","flute"],
+        "access_rules": ["raft,[$fire]","flute,[$fire]"],
         "children": [
             {
                 "name": "Stepladder",
@@ -993,6 +993,9 @@
     },
     {
         "name": "Lizard (D5)",
+        "access_rules": [
+            "[ladder],[$fire]"
+        ],
         "children": [
             {
                 "name": "Recorder",
@@ -1314,7 +1317,7 @@
     {
         "name": "Dragon (D6)",
         "access_rules": [
-            "$weapons"                        
+            "$weapons,[ladder],[$fire]"                        
         ],
         "children": [
             {
@@ -1555,7 +1558,7 @@
     {
         "name": "Demon (D7)",
         "access_rules": [
-            "$weapons, flute"                        
+            "$weapons, flute, [$fire], [ladder]"                        
         ],
         "children": [
             {
@@ -1960,7 +1963,7 @@
     {
         "name": "Lion (D8)",
         "access_rules": [
-            "$weapons, $fire"                     
+            "$weapons, $fire, [ladder]"                     
         ],
         "children": [
             {
@@ -2337,7 +2340,7 @@
     {
         "name": "Death Mountain (D9)",
         "access_rules": [
-            "$weapons, triforce:8"                     
+            "$weapons, triforce:8, [$fire], [ladder]"                     
         ],
         "children": [
             {

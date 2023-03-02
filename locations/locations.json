@@ -1100,7 +1100,7 @@
             },
             {
                 "name": "Snake (D4)",
-                "access_rules": ["raft","flute"],
+                "access_rules": ["raft,[$fire]","flute,[$fire]"],
                 "sections": [
                     {
                         "name": "Stepladder",
@@ -1188,6 +1188,9 @@
             },
             {
                 "name": "Lizard (D5)",
+                "access_rules": [
+                    "[ladder],[$fire]"
+                ],
                 "sections": [
                     {
                         "name": "Recorder",
@@ -1227,7 +1230,7 @@
                     {
                         "name": "Key Drop (Keese North)",
                         "access_rules": [
-                            "$weapons"
+                            "$weapons,ladder"
                         ],
                         "visibility_rules": [
                             "pooltrue"
@@ -1297,7 +1300,7 @@
                     {
                         "name": "Bomb Drop (Gibdos)",
                         "access_rules": [
-                            "$weapons, ladder, bomb"  
+                            "$weapons, ladder", "$weapons,bomb"  
                         ],
                         "visibility_rules": [
                             "pooltrue"
@@ -1335,6 +1338,9 @@
             },
             {
                 "name": "Dragon (D6)",
+                "access_rules": [
+                    "[ladder],[$fire]"
+                ],
                 "sections": [
                     {
                         "name": "Magical Rod",
@@ -1455,7 +1461,7 @@
             {
                 "name": "Demon (D7)",
                 "access_rules": [
-                    "$weapons, flute"
+                    "$weapons, flute, [$fire], [ladder]"
                 ],
                 "sections": [
                     {
@@ -1639,7 +1645,7 @@
             {
                 "name": "Lion (D8)",
                 "access_rules": [
-                    "$weapons, $fire"
+                    "$weapons, $fire, [ladder]"
                 ],
                 "sections": [
                     {
@@ -1807,7 +1813,7 @@
             {
                 "name": "Death Mountain (D9)",
                 "access_rules": [
-                    "$weapons, triforce:8"
+                    "$weapons, triforce:8, [$fire], [ladder]"
                 ],
                 "sections": [
                     {
