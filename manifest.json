@@ -1,10 +1,7 @@
-﻿// this the manifest for you pack
-// it contains basic information about your pack
-// for more info on the manifest check: https://github.com/black-sliver/PopTracker/blob/master/doc/PACKS.md#manifest
-{
+﻿{
   "name": "TLoZ Randomizer - AP",
   "game_name": "The Legend of Zelda",
-  "package_version": "0.1",
+  "package_version": "1.0",
   "package_uid": "tloz_brooty",
   "platform": "nes",
   "author": "Br00ty",
@@ -12,13 +9,13 @@
     "standard": {
       "display_name": "Map Tracker",
       "flags": [
-        "ap" //enables AP autotracking interface - remove if not needed
+        "ap"
       ]
     },
     "var_itemsonly": {
      "display_name": "Items Only",
      "flags": [
-       "ap" //enables AP autotracking interface - remove if not needed
+       "ap"
      ]
     }
   }

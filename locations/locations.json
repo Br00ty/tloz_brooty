@@ -2025,5 +2025,353 @@
                 ]
             }
         ]
+    },
+    {
+        "name": "Secret Rupees",
+        "access_rules": ["{}"],
+        "children": [
+            {
+                "name": "Secret Rupee",
+                "chest_unopened_img": "images/items/rupee.png",
+                "chest_opened_img": "images/items/rupee_gray.png",
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 808,
+                        "y": 200,
+                        "size": 30,
+                        "border_thickness": 6
+                    }
+                ]
+            },
+            {
+                "name": "Rupee Minigame (West)",
+                "chest_unopened_img": "images/items/rupee.png",
+                "chest_opened_img": "images/items/rupee_gray.png",
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 1639,
+                        "y": 200,
+                        "size": 30,
+                        "border_thickness": 6
+                    }
+                ]
+            },
+            {
+                "name": "Secret Rupee",
+                "chest_unopened_img": "images/items/rupee.png",
+                "chest_opened_img": "images/items/rupee_gray.png",
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 407,
+                        "y": 984,
+                        "size": 30,
+                        "border_thickness": 6
+                    }
+                ]
+            },
+            {
+                "name": "Secret Rupee",
+                "chest_unopened_img": "images/items/rupee.png",
+                "chest_opened_img": "images/items/rupee_gray.png",
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 647,
+                        "y": 1096,
+                        "size": 30,
+                        "border_thickness": 6
+                    }
+                ]
+            },
+            {
+                "name": "Secret Rupee",
+                "chest_unopened_img": "images/items/rupee.png",
+                "chest_opened_img": "images/items/rupee_gray.png",
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 345,
+                        "y": 1255,
+                        "size": 30,
+                        "border_thickness": 6
+                    }
+                ]
+            },
+            {
+                "name": "Secret Rupee",
+                "chest_unopened_img": "images/items/rupee.png",
+                "chest_opened_img": "images/items/rupee_gray.png",
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 2263,
+                        "y": 456,
+                        "size": 30,
+                        "border_thickness": 6
+                    }
+                ]
+            },
+            {
+                "name": "Secret Rupee",
+                "chest_unopened_img": "images/items/rupee.png",
+                "chest_opened_img": "images/items/rupee_gray.png",
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 3417,
+                        "y": 375,
+                        "size": 30,
+                        "border_thickness": 6
+                    }
+                ]
+            },
+            {
+                "name": "Secret Rupee",
+                "chest_unopened_img": "images/items/rupee.png",
+                "chest_opened_img": "images/items/rupee_gray.png",
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 3975,
+                        "y": 70,
+                        "size": 30,
+                        "border_thickness": 6
+                    }
+                ]
+            },
+            {
+                "name": "Rupee Minigame (East)",
+                "chest_unopened_img": "images/items/rupee.png",
+                "chest_opened_img": "images/items/rupee_gray.png",
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 3943,
+                        "y": 247,
+                        "size": 30,
+                        "border_thickness": 6
+                    }
+                ]
+            },
+            {
+                "name": "Secret Rupee",
+                "chest_unopened_img": "images/items/rupee.png",
+                "chest_opened_img": "images/items/rupee_gray.png",
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 3479,
+                        "y": 600,
+                        "size": 30,
+                        "border_thickness": 6
+                    }
+                ]
+            },
+            {
+                "name": "Secret Rupee",
+                "chest_unopened_img": "images/items/rupee.png",
+                "chest_opened_img": "images/items/rupee_gray.png",
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 3751,
+                        "y": 776,
+                        "size": 30,
+                        "border_thickness": 6
+                    }
+                ]
+            },
+            {
+                "name": "Secret Rupee",
+                "chest_unopened_img": "images/items/rupee.png",
+                "chest_opened_img": "images/items/rupee_gray.png",
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 2855,
+                        "y": 984,
+                        "size": 30,
+                        "border_thickness": 6
+                    }
+                ]
+            },
+            {
+                "name": "Secret Rupee",
+                "chest_unopened_img": "images/items/rupee.png",
+                "chest_opened_img": "images/items/rupee_gray.png",
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 2951,
+                        "y": 1160,
+                        "size": 30,
+                        "border_thickness": 6
+                    }
+                ]
+            },
+            {
+                "name": "Secret Rupee",
+                "chest_unopened_img": "images/items/rupee.png",
+                "chest_opened_img": "images/items/rupee_gray.png",
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 1913,
+                        "y": 1079,
+                        "size": 30,
+                        "border_thickness": 6
+                    }
+                ]
+            },
+            {
+                "name": "Secret Rupee",
+                "chest_unopened_img": "images/items/rupee.png",
+                "chest_opened_img": "images/items/rupee_gray.png",
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 1703,
+                        "y": 984,
+                        "size": 30,
+                        "border_thickness": 6
+                    }
+                ]
+            },
+            {
+                "name": "Rupee Minigame (South)",
+                "chest_unopened_img": "images/items/rupee.png",
+                "chest_opened_img": "images/items/rupee_gray.png",
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 1641,
+                        "y": 1255,
+                        "size": 30,
+                        "border_thickness": 6
+                    }
+                ]
+            },
+            {
+                "name": "Rupee Minigame (South-East)",
+                "chest_unopened_img": "images/items/rupee.png",
+                "chest_opened_img": "images/items/rupee_gray.png",
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 3177,
+                        "y": 1255,
+                        "size": 30,
+                        "border_thickness": 6
+                    }
+                ]
+            },
+            {
+                "name": "Rupee Minigame (North-West)",
+                "chest_unopened_img": "images/items/rupee.png",
+                "chest_opened_img": "images/items/rupee_gray.png",
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 153,
+                        "y": 199,
+                        "size": 32,
+                        "border_thickness": 6
+                    }
+                ]
+            }
+        ]
     }
 ]
