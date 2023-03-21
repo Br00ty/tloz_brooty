@@ -3,7 +3,7 @@
         {
             "package_version": "1.1",
             "download_url": "https://github.com/Br00ty/tloz_brooty/releases/download/v1.1/tloz_brooty.zip",
-            "sha256": "F97FE57262B63B5109703D1F4FB07E6D8C1DDF686DAC39BC7B07CE94F5EE5310",
+            "sha256": "D60EC0750DECF1FBC3B3569DF2BCE445F0313FAE11E822B5706D906C2442D6BC",
             "changelog": [
                 "fixed autotracking",
                 "added rupee locations"
