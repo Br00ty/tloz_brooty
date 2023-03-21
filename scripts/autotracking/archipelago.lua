@@ -213,7 +213,7 @@ function onLocation(location_id, location_name)
         obj.AvailableChestCount = obj.AvailableChestCount - 1
     end
     if location_name == "Arrow Shop Item Right" then
-        obj = Tracker:FindObjectForCode("@Overworld/Arrow Shop (Desert)/Right9")
+        obj = Tracker:FindObjectForCode("@Overworld/Arrow Shop (Desert)/Right")
         obj.AvailableChestCount = obj.AvailableChestCount - 1
     end
     if location_name == "Arrow Shop Item Right" then
