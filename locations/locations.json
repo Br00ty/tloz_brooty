@@ -1260,7 +1260,7 @@
                     {
                         "name": "Key Drop (Pols Voice Entrance)",
                         "access_rules": [
-                            "$weapons"
+                            "sword","sword2","sword3","bow,arrow","bow,arrow2"
                         ],
                         "visibility_rules": [
                             "pooltrue"
@@ -1280,7 +1280,7 @@
                     {
                         "name": "Key Drop (Gibdos, Keese, and Pols Voice)",
                         "access_rules": [
-                            "$weapons, ladder, bomb"  
+                            "sword,ladder,bomb","sword2,ladder,bomb","sword3,ladder,bomb","bow,arrow,ladder,bomb","bow,arrow2,ladder,bomb"
                         ],
                         "visibility_rules": [
                             "pooltrue"
@@ -1713,7 +1713,7 @@
                             "pooltrue"
                         ],
                         "access_rules": [
-                            "bomb"                       
+                            "sword,bomb","sword2,bomb","sword3,bomb","bow,arrow,bomb","bow,arrow2,bomb"                       
                         ],
                         "item_count": 1
                     },
@@ -1723,7 +1723,7 @@
                             "pooltrue"
                         ],
                         "access_rules": [
-                            "bomb"                       
+                            "sword,bomb","sword2,bomb","sword3,bomb","bow,arrow,bomb","bow,arrow2,bomb"                       
                         ],
                         "item_count": 1
                     },
@@ -1773,7 +1773,7 @@
                             "pooltrue"
                         ],
                         "access_rules": [
-                            "bomb"                       
+                            "sword,bomb","sword2,bomb","sword3,bomb","bow,arrow,bomb","bow,arrow2,bomb"                       
                         ],
                         "item_count": 1
                     },
@@ -2031,7 +2031,7 @@
         "access_rules": ["{}"],
         "children": [
             {
-                "name": "Secret Rupee",
+                "name": "Secret Rupee 1",
                 "chest_unopened_img": "images/items/rupee.png",
                 "chest_opened_img": "images/items/rupee_gray.png",
                 "sections": [
@@ -2069,7 +2069,7 @@
                 ]
             },
             {
-                "name": "Secret Rupee",
+                "name": "Secret Rupee 2",
                 "chest_unopened_img": "images/items/rupee.png",
                 "chest_opened_img": "images/items/rupee_gray.png",
                 "sections": [
@@ -2088,7 +2088,7 @@
                 ]
             },
             {
-                "name": "Secret Rupee",
+                "name": "Secret Rupee 3",
                 "chest_unopened_img": "images/items/rupee.png",
                 "chest_opened_img": "images/items/rupee_gray.png",
                 "sections": [
@@ -2107,7 +2107,7 @@
                 ]
             },
             {
-                "name": "Secret Rupee",
+                "name": "Secret Rupee 4",
                 "chest_unopened_img": "images/items/rupee.png",
                 "chest_opened_img": "images/items/rupee_gray.png",
                 "sections": [
@@ -2126,7 +2126,7 @@
                 ]
             },
             {
-                "name": "Secret Rupee",
+                "name": "Secret Rupee 5",
                 "chest_unopened_img": "images/items/rupee.png",
                 "chest_opened_img": "images/items/rupee_gray.png",
                 "sections": [
@@ -2145,7 +2145,7 @@
                 ]
             },
             {
-                "name": "Secret Rupee",
+                "name": "Secret Rupee 6",
                 "chest_unopened_img": "images/items/rupee.png",
                 "chest_opened_img": "images/items/rupee_gray.png",
                 "sections": [
@@ -2164,7 +2164,7 @@
                 ]
             },
             {
-                "name": "Secret Rupee",
+                "name": "Secret Rupee 7",
                 "chest_unopened_img": "images/items/rupee.png",
                 "chest_opened_img": "images/items/rupee_gray.png",
                 "sections": [
@@ -2202,7 +2202,7 @@
                 ]
             },
             {
-                "name": "Secret Rupee",
+                "name": "Secret Rupee 8",
                 "chest_unopened_img": "images/items/rupee.png",
                 "chest_opened_img": "images/items/rupee_gray.png",
                 "sections": [
@@ -2221,7 +2221,7 @@
                 ]
             },
             {
-                "name": "Secret Rupee",
+                "name": "Secret Rupee 9",
                 "chest_unopened_img": "images/items/rupee.png",
                 "chest_opened_img": "images/items/rupee_gray.png",
                 "sections": [
@@ -2240,7 +2240,7 @@
                 ]
             },
             {
-                "name": "Secret Rupee",
+                "name": "Secret Rupee 10",
                 "chest_unopened_img": "images/items/rupee.png",
                 "chest_opened_img": "images/items/rupee_gray.png",
                 "sections": [
@@ -2259,7 +2259,7 @@
                 ]
             },
             {
-                "name": "Secret Rupee",
+                "name": "Secret Rupee 11",
                 "chest_unopened_img": "images/items/rupee.png",
                 "chest_opened_img": "images/items/rupee_gray.png",
                 "sections": [
@@ -2278,7 +2278,7 @@
                 ]
             },
             {
-                "name": "Secret Rupee",
+                "name": "Secret Rupee 12",
                 "chest_unopened_img": "images/items/rupee.png",
                 "chest_opened_img": "images/items/rupee_gray.png",
                 "sections": [
@@ -2297,7 +2297,7 @@
                 ]
             },
             {
-                "name": "Secret Rupee",
+                "name": "Secret Rupee 13",
                 "chest_unopened_img": "images/items/rupee.png",
                 "chest_opened_img": "images/items/rupee_gray.png",
                 "sections": [
@@ -2367,7 +2367,7 @@
                         "map": "overworld",
                         "x": 153,
                         "y": 199,
-                        "size": 32,
+                        "size": 30,
                         "border_thickness": 6
                     }
                 ]

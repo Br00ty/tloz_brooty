@@ -1,6 +1,15 @@
 {
     "versions": [
         {
+            "package_version": "1.2",
+            "download_url": "https://github.com/Br00ty/tloz_brooty/releases/download/v1.2/tloz_brooty.zip",
+            "sha256": "F5B96AE80D417FC072A40273A88170A0102CE767885AF5FB5D15E543C4E1019E",
+            "changelog": [
+                "fixed Pols Voice location requirements",
+                "fixed rupee locations only tracking one location"
+            ]
+        },
+        {
             "package_version": "1.1",
             "download_url": "https://github.com/Br00ty/tloz_brooty/releases/download/v1.1/tloz_brooty.zip",
             "sha256": "D60EC0750DECF1FBC3B3569DF2BCE445F0313FAE11E822B5706D906C2442D6BC",

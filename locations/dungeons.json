@@ -1161,7 +1161,7 @@
             {
                 "name": "Pols Voice Entrance",
                 "access_rules": [
-                    "$weapons"                        
+                    "sword","sword2","sword3","bow,arrow","bow,arrow2"                     
                 ],
                 "visibility_rules": [
                     "pooltrue"
@@ -1205,7 +1205,7 @@
             {
                 "name": "Gibdos, Keese, and Pols Voice",
                 "access_rules": [
-                    "$weapons, ladder, bomb"                        
+                    "sword,ladder,bomb","sword2,ladder,bomb","sword3,ladder,bomb","bow,arrow,ladder,bomb","bow,arrow2,ladder,bomb"                   
                 ],
                 "visibility_rules": [
                     "pooltrue"
@@ -2124,7 +2124,7 @@
             {
                 "name": "Pols Voice South",
                 "access_rules": [
-                    "bomb"                       
+                    "sword,bomb","sword2,bomb","sword3,bomb","bow,arrow,bomb","bow,arrow2,bomb"                           
                 ],
                 "visibility_rules": [
                     "pooltrue"
@@ -2146,7 +2146,7 @@
             {
                 "name": "Pols Voice and Keese",
                 "access_rules": [
-                    "bomb"                       
+                    "sword,bomb","sword2,bomb","sword3,bomb","bow,arrow,bomb","bow,arrow2,bomb"                          
                 ],
                 "visibility_rules": [
                     "pooltrue"
@@ -2256,7 +2256,7 @@
             {
                 "name": "Pols Voice North",
                 "access_rules": [
-                    "bomb"                       
+                    "sword,bomb","sword2,bomb","sword3,bomb","bow,arrow,bomb","bow,arrow2,bomb"               
                 ],
                 "visibility_rules": [
                     "pooltrue"
