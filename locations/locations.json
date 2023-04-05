@@ -40,7 +40,7 @@
             {
                 "name": "Magical Sword Grave",
                 "access_rules": [
-                    "sword2, heart:10"                               
+                    "sword2, heart:9"                               
                 ],
                 "sections": [
                     {
@@ -170,7 +170,8 @@
             {
                 "name": "Take Any Item (Bush)",
                 "access_rules": [
-                    "[$weapons],$fire"
+                    "[$weapons],candle",
+                    "[$weapons],candle2"
                 ],
                 "sections": [
                     {
