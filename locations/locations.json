@@ -1403,7 +1403,7 @@
                     {
                         "name": "Key Drop (Wizzrobes North Island)",
                         "access_rules": [
-                            "$weapons"
+                            "$weapons, ladder"
                         ],
                         "visibility_rules": [
                             "pooltrue"

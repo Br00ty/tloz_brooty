@@ -1,6 +1,15 @@
 {
     "versions": [
         {
+            "package_version": "1.4",
+            "download_url": "https://github.com/Br00ty/tloz_brooty/releases/download/v1.4/tloz_brooty.zip",
+            "sha256": "986D30550CA0AC9013848F13987C96A6B8DE39692071AE2B5F63EAECE66FE44D",
+            "changelog": [
+                "fixed mismatched location requirements",
+                "added location scrolling"
+            ]
+        },
+        {
             "package_version": "1.3",
             "download_url": "https://github.com/Br00ty/tloz_brooty/releases/download/v1.3/tloz_brooty.zip",
             "sha256": "717403E8B7AC3B0165340A241738DC4F7F1322EAEFDD58B281636D33BCDD451F",
