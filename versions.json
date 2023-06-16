@@ -3,7 +3,7 @@
         {
             "package_version": "1.5",
             "download_url": "https://github.com/Br00ty/tloz_brooty/releases/download/v1.5/tloz_brooty.zip",
-            "sha256": "317C58E3346A731B77F4855CE0B1B95F857814C5DFCD14374616930FC853A191",
+            "sha256": "F022AB3194EFA5B64402294B9B3E9419119AF60920B8C5BBEB0522640B4BE3E4",
             "changelog": [
                 "fixed name, 'flute' shouldve been 'recorder'",
                 "fixed location requirements for 'Red Candle'",
