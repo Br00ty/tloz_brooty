@@ -1,6 +1,16 @@
 {
     "versions": [
         {
+            "package_version": "1.5",
+            "download_url": "https://github.com/Br00ty/tloz_brooty/releases/download/v1.5/tloz_brooty.zip",
+            "sha256": "317C58E3346A731B77F4855CE0B1B95F857814C5DFCD14374616930FC853A191",
+            "changelog": [
+                "fixed name, 'flute' shouldve been 'recorder'",
+                "fixed location requirements for 'Red Candle'",
+                "fixed location requirements for 'Magical Sword Grave'"
+            ]
+        },
+        {
             "package_version": "1.4",
             "download_url": "https://github.com/Br00ty/tloz_brooty/releases/download/v1.4/tloz_brooty.zip",
             "sha256": "05E43E0047EFE4351A401AC35BD31522F18B45EC5399763898B4C6D97B14A646",

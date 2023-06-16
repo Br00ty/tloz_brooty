@@ -118,7 +118,7 @@
     "codes": "bow"
   },
   {
-    "name": "Flute",
+    "name": "Recorder",
     "type": "toggle",
     "img": "images/items/flute.png",
     "codes": "flute"

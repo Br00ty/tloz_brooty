@@ -40,7 +40,7 @@
             {
                 "name": "Magical Sword Grave",
                 "access_rules": [
-                    "sword2, heart:9"                               
+                    "heart:9"                               
                 ],
                 "sections": [
                     {
@@ -1468,7 +1468,7 @@
                     {
                         "name": "Red Candle",
                         "access_rules": [
-                            "ladder,bomb,flute"                        
+                            "ladder,bomb,flute,food"                        
                         ],
                         "item_count": 1
                     },

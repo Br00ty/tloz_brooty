@@ -1564,7 +1564,7 @@
             {
                 "name": "Red Candle",
                 "access_rules": [
-                    "ladder,bomb,flute"                        
+                    "ladder,bomb,flute,food"                        
                 ],
                 "sections": [
                     {
