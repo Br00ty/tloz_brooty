@@ -439,7 +439,7 @@
             {
                 "name": "Keese",
                 "access_rules": [
-                    "$weapons"                        
+                    "$weapons", "[dangerous]"                       
                 ],
                 "visibility_rules": [
                     "pooltrue"
