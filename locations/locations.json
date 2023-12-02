@@ -1106,14 +1106,14 @@
                     {
                         "name": "Stepladder",
                         "access_rules": [
-                            "$weapons,$fire"
+                            "$weapons"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Map",
                         "access_rules": [
-                            "$weapons,ladder,$fire"
+                            "$weapons,ladder"
                         ],
                         "item_count": 1
                     },
@@ -1127,14 +1127,14 @@
                     {
                         "name": "Gleeok",
                         "access_rules": [
-                            "$weapons,ladder,$fire"
+                            "$weapons,ladder"
                         ],
                         "item_count": 1
                     },
                     {
                         "name": "Triforce",
                         "access_rules": [
-                            "$weapons,ladder,$fire"
+                            "$weapons,ladder"
                         ],
                         "item_count": 1
                     },
@@ -1161,7 +1161,7 @@
                     {
                         "name": "Key Drop (Zols)",
                         "access_rules": [
-                            "$weapons,$fire"
+                            "$weapons"
                         ],
                         "visibility_rules": [
                             "pooltrue"
@@ -1171,7 +1171,7 @@
                     {
                         "name": "Key Drop (Keese North)",
                         "access_rules": [
-                            "$weapons,ladder,$fire"
+                            "$weapons,ladder"
                         ],
                         "visibility_rules": [
                             "pooltrue"

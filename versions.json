@@ -1,6 +1,14 @@
 {
     "versions": [
         {
+            "package_version": "1.5.2",
+            "download_url": "https://github.com/Br00ty/tloz_brooty/releases/download/v1.5.2/tloz_brooty.zip",
+            "sha256": "aaae93a8813991956055a339695409087cc441a6c347c74437df7cb548838ffc",
+            "changelog": [
+                "fixed Level 4 overworld logic"
+            ]
+        },
+        {
             "package_version": "1.5.1",
             "download_url": "https://github.com/Br00ty/tloz_brooty/releases/download/v1.5.1/tloz_brooty.zip",
             "sha256": "4358D87D0210E85D7975F4E1FDF962DB28DC98BDE8334FA9EC2EF92446CD1754",
