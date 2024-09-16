@@ -1,3 +1,4 @@
+---@diagnostic disable: lowercase-global
 ---[[
 function has(item, amount)
     local count = Tracker:ProviderCountForCode(item)
@@ -16,6 +17,10 @@ end
 
 function weapons()
   return has("sword") or has("sword2") or has("sword3") or has("magicrod") or has("candle2")
+end
+
+function gleeok_weapons()
+  return has("sword") or has("sword2") or has("sword3") or has("magicrod")
 end
 
 function arrows()

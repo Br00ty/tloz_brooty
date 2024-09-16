@@ -866,7 +866,7 @@
             {
                 "name": "Gleeok",
                 "access_rules": [
-                    "$weapons, ladder"                        
+                    "$gleeok_weapons, ladder"                        
                 ],
                 "sections": [
                     {
@@ -1473,9 +1473,6 @@
                 "visibility_rules": [
                     "pooltrue"
                 ],
-                "access_rules": [
-                    "ladder"
-                ],
                 "sections": [
                     {
                         "name": "Key Drop",
@@ -1703,7 +1700,7 @@
             {
                 "name": "Stalfos",
                 "access_rules": [
-                    "ladder"                        
+                    "[ladder]"                        
                 ],
                 "visibility_rules": [
                     "pooltrue"
@@ -2042,7 +2039,7 @@
             {
                 "name": "Gleeok",
                 "access_rules": [
-                    "bomb"                       
+                    "gleeok_weapons, bomb"                       
                 ],
                 "sections": [
                     {

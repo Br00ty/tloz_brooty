@@ -224,7 +224,7 @@
             },
             {
                 "name": "Arrow Shop (Coast)",
-                "access_rules": ["[$weapons],bomb"],
+                "access_rules": ["[$weapons]"],
                 "sections": [
                     {
                         "name": "Left",
@@ -1127,7 +1127,7 @@
                     {
                         "name": "Gleeok",
                         "access_rules": [
-                            "$weapons,ladder"
+                            "$gleeok_weapon, ladder"
                         ],
                         "item_count": 1
                     },
@@ -1413,7 +1413,7 @@
                     {
                         "name": "Key Drop (Wizzrobes North Stream)",
                         "access_rules": [
-                            "$weapons, ladder"
+                            "$weapons"
                         ],
                         "visibility_rules": [
                             "pooltrue"
@@ -1526,7 +1526,7 @@
                             "pooltrue"
                         ],
                         "access_rules": [
-                            "ladder"                       
+                            "[ladder]"                       
                         ],
                         "item_count": 1
                     },
@@ -1677,7 +1677,7 @@
                     {
                         "name": "Gleeok",
                         "access_rules": [
-                            "bomb"                       
+                            "$gleeok_weapon, bomb"                       
                         ],
                         "item_count": 1
                     },
