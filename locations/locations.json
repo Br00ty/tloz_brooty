@@ -2317,6 +2317,25 @@
                 ]
             },
             {
+                "name": "Secret Rupee 14",
+                "chest_unopened_img": "images/items/rupee.png",
+                "chest_opened_img": "images/items/rupee_gray.png",
+                "sections": [
+                    {
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "overworld",
+                        "x": 2263,
+                        "y": 744,
+                        "size": 30,
+                        "border_thickness": 6
+                    }
+                ]
+            },
+            {
                 "name": "Rupee Minigame (South)",
                 "chest_unopened_img": "images/items/rupee.png",
                 "chest_opened_img": "images/items/rupee_gray.png",
