@@ -1127,7 +1127,7 @@
                     {
                         "name": "Gleeok",
                         "access_rules": [
-                            "$gleeok_weapon, ladder"
+                            "$gleeok_weapons, ladder"
                         ],
                         "item_count": 1
                     },
@@ -1677,7 +1677,7 @@
                     {
                         "name": "Gleeok",
                         "access_rules": [
-                            "$gleeok_weapon, bomb"                       
+                            "$gleeok_weapons, bomb"                       
                         ],
                         "item_count": 1
                     },
