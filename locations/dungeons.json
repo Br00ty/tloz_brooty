@@ -1205,7 +1205,7 @@
             {
                 "name": "Gibdos, Keese, and Pols Voice",
                 "access_rules": [
-                    "sword,ladder,bomb","sword2,ladder,bomb","sword3,ladder,bomb","bow,arrow,ladder,bomb","bow,arrow2,ladder,bomb"                   
+                    "$weapons, ladder, bomb"
                 ],
                 "visibility_rules": [
                     "pooltrue"
