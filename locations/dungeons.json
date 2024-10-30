@@ -885,7 +885,7 @@
             {
                 "name": "Triforce",
                 "access_rules": [
-                    "$weapons, ladder"                        
+                    "$gleeok_weapons, ladder"                        
                 ],
                 "sections": [
                     {
@@ -2058,7 +2058,7 @@
             {
                 "name": "Triforce",
                 "access_rules": [
-                    "bomb"                       
+                    "$gleeok_weapons, bomb"                       
                 ],
                 "sections": [
                     {
