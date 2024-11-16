@@ -627,7 +627,7 @@
             {
                 "name": "Keese North",
                 "access_rules": [
-                    "$weapons"                      
+                    "$weapons, bomb, ladder"                      
                 ],
                 "visibility_rules": [
                     "pooltrue"
@@ -1000,7 +1000,7 @@
             {
                 "name": "Recorder",
                 "access_rules": [
-                    "$weapons"                        
+                    "$weapons, bomb"                        
                 ],
                 "sections": [
                     {
@@ -1038,7 +1038,7 @@
             {
                 "name": "Compass",
                 "access_rules": [
-                    "$weapons, ladder, bomb"                        
+                    "$weapons, ladder"                        
                 ],
                 "sections": [
                     {
@@ -1057,7 +1057,7 @@
             {
                 "name": "Digdogger",
                 "access_rules": [
-                    "$weapons, ladder, bomb, flute"                       
+                    "$weapons, ladder, flute"                       
                 ],
                 "sections": [
                     {
@@ -1076,7 +1076,7 @@
             {
                 "name": "Triforce",
                 "access_rules": [
-                    "$weapons, ladder, bomb, flute"                        
+                    "$weapons, ladder, flute"                        
                 ],
                 "sections": [
                     {
@@ -1095,7 +1095,7 @@
             {
                 "name": "Keese North",
                 "access_rules": [
-                    "$weapons,ladder"                       
+                    "$weapons, ladder, bomb"                       
                 ],
                 "visibility_rules": [
                     "pooltrue"
@@ -1117,7 +1117,7 @@
             {
                 "name": "Gibdos North",
                 "access_rules": [
-                    "$weapons, ladder, bomb"                         
+                    "$weapons, ladder"                         
                 ],
                 "visibility_rules": [
                     "pooltrue"
@@ -1139,7 +1139,7 @@
             {
                 "name": "Gibdos Central",
                 "access_rules": [
-                    "$weapons, ladder, bomb"                         
+                    "$weapons, ladder"                         
                 ],
                 "visibility_rules": [
                     "pooltrue"
@@ -1205,7 +1205,7 @@
             {
                 "name": "Gibdos, Keese, and Pols Voice",
                 "access_rules": [
-                    "$weapons, ladder, bomb"
+                    "$weapons, ladder"
                 ],
                 "visibility_rules": [
                     "pooltrue"
@@ -1249,7 +1249,7 @@
             {
                 "name": "Gibdos",
                 "access_rules": [
-                    "$weapons, ladder", "$weapons,bomb"                         
+                    "$weapons, bomb"                         
                 ],
                 "visibility_rules": [
                     "pooltrue"
@@ -1293,7 +1293,7 @@
             {
                 "name": "Zols (Rupee)",
                 "access_rules": [
-                    "$weapons, ladder, bomb"                         
+                    "$weapons, ladder"                         
                 ],
                 "visibility_rules": [
                     "pooltrue"
