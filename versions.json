@@ -1,6 +1,15 @@
 {
     "versions": [
         {
+            "package_version": "1.5.4",
+            "download_url": "https://github.com/Br00ty/tloz_brooty/releases/download/1.5.4/tloz_brooty.zip",
+            "sha256": "b946cc742153a63822633a59b54dc665085e65cf1704d74ed53c4fabdb1c3bc9",
+            "changelog": [
+                "fixed d4 gleeok access",
+                "fixed d8 gleeok access"
+            ]
+        },
+        {
             "package_version": "1.5.3",
             "download_url": "https://github.com/Br00ty/tloz_brooty/releases/download/1.5.3/tloz_brooty.zip",
             "sha256": "b0fa08d194ec3d045d868f98f031d3349d9c582718ccbd8f940c89a749ce7432",
