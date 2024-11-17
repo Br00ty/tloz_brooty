@@ -26,3 +26,7 @@ end
 function arrows()
   return has("arrow") or has("arrow2")
 end
+
+function defense(hearts)
+  return has("heart", hearts) or (has("bluering") and has("heart", hearts / 2)) or (has("redring") and has("heart", hearts / 4))
+end

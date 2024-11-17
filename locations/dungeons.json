@@ -252,6 +252,7 @@
     },
     {
         "name": "Moon (D2)",
+        "access_rules": ["[$defense|1]"],
         "children": [
             {
                 "name": "Magical Boomerang",
@@ -506,6 +507,7 @@
     },
     {
         "name": "Manji (D3)",
+        "access_rules": ["[$defense|2]"],
         "children": [
             {
                 "name": "Raft",
@@ -804,7 +806,7 @@
     },
     {
         "name": "Snake (D4)",
-        "access_rules": ["raft,[$fire]","flute,[$fire]"],
+        "access_rules": ["raft,[$fire],[$defense|3]","flute,[$fire],[$defense|3]"],
         "children": [
             {
                 "name": "Stepladder",
@@ -994,7 +996,7 @@
     {
         "name": "Lizard (D5)",
         "access_rules": [
-            "[ladder],[$fire]"
+            "[ladder],[$fire],[$defense|4]"
         ],
         "children": [
             {
@@ -1317,7 +1319,7 @@
     {
         "name": "Dragon (D6)",
         "access_rules": [
-            "$weapons,[ladder],[$fire]"                        
+            "$weapons,[ladder],[$fire],[$defense|5]"                        
         ],
         "children": [
             {
@@ -1555,7 +1557,7 @@
     {
         "name": "Demon (D7)",
         "access_rules": [
-            "$weapons, flute, [$fire], [ladder]"                        
+            "$weapons, flute, [$fire], [ladder], [$defense|6]"                        
         ],
         "children": [
             {
@@ -1960,7 +1962,7 @@
     {
         "name": "Lion (D8)",
         "access_rules": [
-            "$weapons, $fire, [ladder]"                     
+            "$weapons, $fire, [ladder], [$defense|7]"                     
         ],
         "children": [
             {
@@ -2337,7 +2339,7 @@
     {
         "name": "Death Mountain (D9)",
         "access_rules": [
-            "$weapons, triforce:8, [$fire], [ladder]"                     
+            "$weapons, triforce:8, [$fire], [ladder], [$defense|8]"                     
         ],
         "children": [
             {
