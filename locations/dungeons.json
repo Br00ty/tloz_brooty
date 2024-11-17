@@ -2400,7 +2400,7 @@
             {
                 "name": "Compass",
                 "access_rules": [
-                    "bomb,$fire"                       
+                    "bomb"                       
                 ],
                 "sections": [
                     {
@@ -2444,7 +2444,7 @@
                     "pooltrue"
                 ],
                 "access_rules": [
-                    "ladder,bomb"                       
+                    "ladder"                       
                 ],
                 "sections": [
                     {
@@ -2642,7 +2642,7 @@
                     "pooltrue"
                 ],
                 "access_rules": [
-                    "bomb,$fire"                       
+                    "bomb"                       
                 ],
                 "sections": [
                     {
@@ -2664,7 +2664,7 @@
                     "pooltrue"
                 ],
                 "access_rules": [
-                    "bomb,$fire"                       
+                    "bomb"                       
                 ],
                 "sections": [
                     {
@@ -2768,7 +2768,7 @@
             {
                 "name": "Ganon",
                 "access_rules": [
-                    "bomb,[ladder],$fire,bow,arrow2"                       
+                    "bomb,bow,arrow2"                       
                 ],
                 "sections": [
                     {
@@ -2787,7 +2787,7 @@
             {
                 "name": "Zelda",
                 "access_rules": [
-                    "bomb,[ladder],$fire,bow,arrow2"                       
+                    "bomb,bow,arrow2"                       
                 ],
                 "sections": [
                     {
