@@ -1,6 +1,19 @@
 {
     "versions": [
         {
+            "package_version": "1.5.5",
+            "download_url": "https://github.com/Br00ty/tloz_brooty/releases/download/1.5.5/tloz_brooty.zip",
+            "sha256": "ec9511498dcdca283455c53362fd2295593c78aae4473dfc6997961b84c1cb67",
+            "changelog": [
+                "Fix for triforces behind gleeoks showing as accessible when the gleeoks can't be killed (LadyBunne)",
+                "Fix for level 5 'Gibdos, Keese, and Pols Voice' check, this is freestanding and can be gotten with any $weapon (LadyBunne)",
+                "Fix for Gannon and Zelda stepladder requirement, there is a path that does not require this (SapphireBlaze)",
+                "Level 5 bomb logic changes to match AP logic",
+                "Level 9 access rules",
+                "Add Defense logic"
+            ]
+        },
+        {
             "package_version": "1.5.4",
             "download_url": "https://github.com/Br00ty/tloz_brooty/releases/download/1.5.4/tloz_brooty.zip",
             "sha256": "b946cc742153a63822633a59b54dc665085e65cf1704d74ed53c4fabdb1c3bc9",
