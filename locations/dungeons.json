@@ -252,6 +252,7 @@
     },
     {
         "name": "Moon (D2)",
+        "access_rules": ["[$defense|1]"],
         "children": [
             {
                 "name": "Magical Boomerang",
@@ -506,6 +507,7 @@
     },
     {
         "name": "Manji (D3)",
+        "access_rules": ["[$defense|2]"],
         "children": [
             {
                 "name": "Raft",
@@ -627,7 +629,7 @@
             {
                 "name": "Keese North",
                 "access_rules": [
-                    "$weapons"                      
+                    "$weapons, bomb, ladder"                      
                 ],
                 "visibility_rules": [
                     "pooltrue"
@@ -804,7 +806,7 @@
     },
     {
         "name": "Snake (D4)",
-        "access_rules": ["raft,[$fire]","flute,[$fire]"],
+        "access_rules": ["raft,[$fire],[$defense|3]","flute,[$fire],[$defense|3]"],
         "children": [
             {
                 "name": "Stepladder",
@@ -885,7 +887,7 @@
             {
                 "name": "Triforce",
                 "access_rules": [
-                    "$weapons, ladder"                        
+                    "$gleeok_weapons, ladder"                        
                 ],
                 "sections": [
                     {
@@ -994,13 +996,13 @@
     {
         "name": "Lizard (D5)",
         "access_rules": [
-            "[ladder],[$fire]"
+            "[ladder],[$fire],[$defense|4]"
         ],
         "children": [
             {
                 "name": "Recorder",
                 "access_rules": [
-                    "$weapons"                        
+                    "$weapons, bomb"                        
                 ],
                 "sections": [
                     {
@@ -1038,7 +1040,7 @@
             {
                 "name": "Compass",
                 "access_rules": [
-                    "$weapons, ladder, bomb"                        
+                    "$weapons, ladder"                        
                 ],
                 "sections": [
                     {
@@ -1057,7 +1059,7 @@
             {
                 "name": "Digdogger",
                 "access_rules": [
-                    "$weapons, ladder, bomb, flute"                       
+                    "$weapons, ladder, flute"                       
                 ],
                 "sections": [
                     {
@@ -1076,7 +1078,7 @@
             {
                 "name": "Triforce",
                 "access_rules": [
-                    "$weapons, ladder, bomb, flute"                        
+                    "$weapons, ladder, flute"                        
                 ],
                 "sections": [
                     {
@@ -1095,7 +1097,7 @@
             {
                 "name": "Keese North",
                 "access_rules": [
-                    "$weapons,ladder"                       
+                    "$weapons, ladder, bomb"                       
                 ],
                 "visibility_rules": [
                     "pooltrue"
@@ -1117,7 +1119,7 @@
             {
                 "name": "Gibdos North",
                 "access_rules": [
-                    "$weapons, ladder, bomb"                         
+                    "$weapons, ladder"                         
                 ],
                 "visibility_rules": [
                     "pooltrue"
@@ -1139,7 +1141,7 @@
             {
                 "name": "Gibdos Central",
                 "access_rules": [
-                    "$weapons, ladder, bomb"                         
+                    "$weapons, ladder"                         
                 ],
                 "visibility_rules": [
                     "pooltrue"
@@ -1205,7 +1207,7 @@
             {
                 "name": "Gibdos, Keese, and Pols Voice",
                 "access_rules": [
-                    "sword,ladder,bomb","sword2,ladder,bomb","sword3,ladder,bomb","bow,arrow,ladder,bomb","bow,arrow2,ladder,bomb"                   
+                    "$weapons, ladder"
                 ],
                 "visibility_rules": [
                     "pooltrue"
@@ -1249,7 +1251,7 @@
             {
                 "name": "Gibdos",
                 "access_rules": [
-                    "$weapons, ladder", "$weapons,bomb"                         
+                    "$weapons, bomb"                         
                 ],
                 "visibility_rules": [
                     "pooltrue"
@@ -1293,7 +1295,7 @@
             {
                 "name": "Zols (Rupee)",
                 "access_rules": [
-                    "$weapons, ladder, bomb"                         
+                    "$weapons, ladder"                         
                 ],
                 "visibility_rules": [
                     "pooltrue"
@@ -1317,7 +1319,7 @@
     {
         "name": "Dragon (D6)",
         "access_rules": [
-            "$weapons,[ladder],[$fire]"                        
+            "$weapons,[ladder],[$fire],[$defense|5]"                        
         ],
         "children": [
             {
@@ -1555,7 +1557,7 @@
     {
         "name": "Demon (D7)",
         "access_rules": [
-            "$weapons, flute, [$fire], [ladder]"                        
+            "$weapons, flute, [$fire], [ladder], [$defense|6]"                        
         ],
         "children": [
             {
@@ -1960,7 +1962,7 @@
     {
         "name": "Lion (D8)",
         "access_rules": [
-            "$weapons, $fire, [ladder]"                     
+            "$weapons, $fire, [ladder], [$defense|7]"                     
         ],
         "children": [
             {
@@ -2058,7 +2060,7 @@
             {
                 "name": "Triforce",
                 "access_rules": [
-                    "bomb"                       
+                    "$gleeok_weapons, bomb"                       
                 ],
                 "sections": [
                     {
@@ -2337,7 +2339,7 @@
     {
         "name": "Death Mountain (D9)",
         "access_rules": [
-            "$weapons, triforce:8, [$fire], [ladder]"                     
+            "$weapons, triforce:8, [$fire], [ladder], [$defense|8]"                     
         ],
         "children": [
             {
@@ -2400,7 +2402,7 @@
             {
                 "name": "Compass",
                 "access_rules": [
-                    "bomb,$fire"                       
+                    "bomb"                       
                 ],
                 "sections": [
                     {
@@ -2444,7 +2446,7 @@
                     "pooltrue"
                 ],
                 "access_rules": [
-                    "ladder,bomb"                       
+                    "ladder"                       
                 ],
                 "sections": [
                     {
@@ -2642,7 +2644,7 @@
                     "pooltrue"
                 ],
                 "access_rules": [
-                    "bomb,$fire"                       
+                    "bomb"                       
                 ],
                 "sections": [
                     {
@@ -2664,7 +2666,7 @@
                     "pooltrue"
                 ],
                 "access_rules": [
-                    "bomb,$fire"                       
+                    "bomb"                       
                 ],
                 "sections": [
                     {
@@ -2768,7 +2770,7 @@
             {
                 "name": "Ganon",
                 "access_rules": [
-                    "bomb,ladder,$fire,bow,arrow2"                       
+                    "bomb,bow,arrow2"                       
                 ],
                 "sections": [
                     {
@@ -2787,7 +2789,7 @@
             {
                 "name": "Zelda",
                 "access_rules": [
-                    "bomb,ladder,$fire,bow,arrow2"                       
+                    "bomb,bow,arrow2"                       
                 ],
                 "sections": [
                     {
