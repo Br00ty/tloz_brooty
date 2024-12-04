@@ -629,7 +629,7 @@
             {
                 "name": "Keese North",
                 "access_rules": [
-                    "$weapons, bomb, ladder"                      
+                    "$weapons"
                 ],
                 "visibility_rules": [
                     "pooltrue"
