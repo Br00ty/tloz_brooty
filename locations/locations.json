@@ -21,7 +21,7 @@
             {
                 "name": "White Sword Pond",
                 "access_rules": [
-                    "[$weapons], heart:2"                              
+                    "heart:2"                              
                 ],
                 "sections": [
                     {
@@ -97,7 +97,7 @@
             {
                 "name": "Ocean Heart Container",
                 "access_rules": [
-                    "{}", "ladder, [$weapons]"                        
+                    "{}", "ladder"                        
                 ],
                 "sections": [
                     {

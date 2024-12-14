@@ -1,6 +1,16 @@
 {
     "versions": [
         {
+            "package_version": "1.5.5.1",
+            "download_url": "https://github.com/Br00ty/tloz_brooty/releases/download/1.5.5.1/tloz_brooty.zip",
+            "sha256": "f53cc03ed4e1e8ae9713e87ea5e99ee810e5c7c002b8a7471d145558fb0d8108",
+            "changelog": [
+                "move a location in Lvl 9 to see the stairs",
+                "revert logic in Lvl 3 Gleeok",
+                "Remove Weapon Requirements for White Sword Pond and Ocean Heart Container"
+            ]
+        },
+        {
             "package_version": "1.5.5",
             "download_url": "https://github.com/Br00ty/tloz_brooty/releases/download/1.5.5/tloz_brooty.zip",
             "sha256": "ec9511498dcdca283455c53362fd2295593c78aae4473dfc6997961b84c1cb67",
