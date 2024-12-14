@@ -629,7 +629,7 @@
             {
                 "name": "Keese North",
                 "access_rules": [
-                    "$weapons, bomb, ladder"                      
+                    "$weapons"
                 ],
                 "visibility_rules": [
                     "pooltrue"
@@ -2435,8 +2435,8 @@
                 "map_locations": [
                     {
                         "map": "level9",
-                        "x": 383,
-                        "y": 1143
+                        "x": 389,
+                        "y": 1125
                     }
                 ]
             },
